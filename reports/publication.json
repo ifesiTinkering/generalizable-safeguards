@@ -1,0 +1,15 @@
+{
+  "anonymous_clone_verified": true,
+  "credential_or_binding_findings": 0,
+  "github_check": "success",
+  "github_check_url": "https://github.com/ifesiTinkering/generalizable-safeguards/actions/runs/44350689997",
+  "initial_audited_commit": "3fd8454ff0d6f0544d15f784e2b909211d115f5a",
+  "initial_tracked_files": 307,
+  "new_training_sampling_grading_calls": 0,
+  "notes": "Public code, numerical observations, claim tables and paper; private bindings, source payload bundles, full response archives and weights remain local.",
+  "offline_tests_passed": 34,
+  "pdfs_text_scanned": 3,
+  "private_paths_tracked": 0,
+  "repository": "https://github.com/ifesiTinkering/generalizable-safeguards",
+  "visibility": "public"
+}

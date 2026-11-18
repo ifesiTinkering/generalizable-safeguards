@@ -28,7 +28,12 @@
   },
   "offline_clean_install": "Fresh Git clone passed",
   "overleaf_modified": false,
-  "publication": "Not published; source licensing and artifact distribution remain author decisions",
+  "publication": {
+    "private_artifacts": "excluded",
+    "repository": "https://github.com/ifesiTinkering/generalizable-safeguards",
+    "source_code_license": "unassigned",
+    "visibility": "public"
+  },
   "raw_answer_records": 767080,
   "reader_workflow_review": "reports/reader-audit.md",
   "source_payloads_restored_and_verified": true,

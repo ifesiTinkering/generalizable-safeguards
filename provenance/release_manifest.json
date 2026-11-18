@@ -987,19 +987,24 @@
       "sha256": "573b60d4aed53b828cbb893e376761d4919d559ba6716e474a80b03bec98fe24"
     },
     {
+      "bytes": 720,
+      "path": "reports/publication.json",
+      "sha256": "785916f2a92e552c7ccbe5d8ed3495c68e0958ef2a877f4aa01e027d9c2aaa10"
+    },
+    {
       "bytes": 2297,
       "path": "reports/reader-audit.md",
       "sha256": "5cdb729b18087c44536cc4c94b490005ca88051474eb743e042d0ad8ea578b7a"
     },
     {
-      "bytes": 1389,
+      "bytes": 1496,
       "path": "reports/readiness.json",
-      "sha256": "b932d43d5d730cfecd811a82adb5aa776cef7b757b1f0cccba04df4f90875524"
+      "sha256": "ef6cf2074c855ad5101f9c8d8ffdc3be0b614ea34c4bf05e9edb729aceacf3b2"
     },
     {
       "bytes": 66,
       "path": "reports/release-audit.json",
-      "sha256": "ba1febd5c810a12b0a67cdd720926adffcd619d232de830f5cb60f209c5fd593"
+      "sha256": "421114c144fc6ae88323b8a46960b398f76573d37a0fe63d187de2ffdd5778c4"
     },
     {
       "bytes": 11963,
