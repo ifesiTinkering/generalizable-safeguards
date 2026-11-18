@@ -1,0 +1,24 @@
+{\fontsize{8.5}{9.7}\selectfont\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\linewidth}{@{}X>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{orange!6}}r>{\columncolor{orange!6}}r>{\columncolor{orange!6}}r>{\columncolor{orange!6}}r@{}}\toprule
+ & \multicolumn{2}{c}{\shortstack{Qwen3.5-9B\\SafePyramid\\(in-distribution\\dataset)}} & \multicolumn{2}{c}{\shortstack{Qwen3.5-9B\\DynaBench\\(out-of-distribution\\dataset)}} & \multicolumn{2}{c}{\shortstack{GPT-OSS-120B\\SafePyramid\\(in-distribution\\dataset)}} & \multicolumn{2}{c}{\shortstack{GPT-OSS-120B\\DynaBench\\(out-of-distribution\\dataset)}}\\
+Metric & \armA{} $\to$ \armB{} & $p$ & \armA{} $\to$ \armB{} & $p$ & \armA{} $\to$ \armB{} & $p$ & \armA{} $\to$ \armB{} & $p$\\\midrule
+\rowcolor{teal!9}\multicolumn{9}{@{}l}{\textbf{Correctness}}\\
+Rule F1 & 0.695$\,\to\,$0.695 & 1.000 & 0.752$\,\to\,$0.756 & 0.841 & 0.641$\,\to\,$0.652 & 0.104 & 0.737$\,\to\,$0.745 & 0.426\\
+Precision & 0.710$\,\to\,$0.703 & \textemdash & 0.763$\,\to\,$0.766 & \textemdash & 0.700$\,\to\,$0.698 & \textemdash & 0.749$\,\to\,$0.756 & \textemdash\\
+Recall & 0.701$\,\to\,$0.708 & \textemdash & 0.749$\,\to\,$0.753 & \textemdash & 0.629$\,\to\,$0.649 & \textemdash & 0.732$\,\to\,$0.740 & \textemdash\\
+Jaccard similarity & 0.604$\,\to\,$0.607 & \textemdash & 0.745$\,\to\,$0.749 & \textemdash & 0.533$\,\to\,$0.540 & \textemdash & 0.730$\,\to\,$0.739 & \textemdash\\
+Exact rule-set accuracy & 0.212$\,\to\,$0.216 & \textemdash & 0.722$\,\to\,$0.725 & \textemdash & 0.160$\,\to\,$0.149 & \textemdash & 0.709$\,\to\,$0.718 & \textemdash\\
+Parseable answers & 0.901$\,\to\,$0.891 & \textemdash & 0.973$\,\to\,$0.972 & \textemdash & 0.987$\,\to\,$0.987 & \textemdash & 0.959$\,\to\,$0.963 & \textemdash\\
+\rowcolor{teal!9}\multicolumn{9}{@{}l}{\textbf{Confidence scores and calibration}}\\
+Mean confidence & 0.855$\,\to\,$0.792 & \textemdash & 0.896$\,\to\,$0.834 & \textemdash & 0.895$\,\to\,$0.832 & \textemdash & 0.933$\,\to\,$0.902 & \textemdash\\
+Confidence standard deviation & 0.079$\,\to\,$0.083 & \textemdash & 0.087$\,\to\,$0.117 & \textemdash & 0.057$\,\to\,$0.067 & \textemdash & 0.051$\,\to\,$0.066 & \textemdash\\
+ECE $\downarrow$ (lower is better) & \textbf{0.193$\,\to\,$0.113} & 0.004 & \textbf{0.133$\,\to\,$0.076} & 0.004 & \textbf{0.356$\,\to\,$0.285} & 0.004 & \textbf{0.175$\,\to\,$0.140} & 0.004\\
+\rowcolor{teal!9}\multicolumn{9}{@{}l}{\textbf{Confidence usefulness}}\\
+Error detection: AUROC & 0.733$\,\to\,$0.732 & 1.000 & 0.660$\,\to\,$0.678 & 0.730 & 0.688$\,\to\,$0.734 & 0.361 & 0.578$\,\to\,$0.598 & 0.836\\
+Error detection: average precision & 0.866$\,\to\,$0.865 & \textemdash & 0.382$\,\to\,$0.392 & \textemdash & 0.905$\,\to\,$0.925 & \textemdash & 0.324$\,\to\,$0.350 & \textemdash\\
+F1 loss under selection: AURC & 0.166$\,\to\,$0.149 & 0.051 & 0.157$\,\to\,$0.143 & 0.432 & \textbf{0.293$\,\to\,$0.265} & 0.021 & 0.204$\,\to\,$0.194 & 0.899\\
+F1 loss found by 20\% review & 0.269$\,\to\,$0.294 & 0.197 & 0.351$\,\to\,$0.357 & 1.000 & 0.248$\,\to\,$0.262 & 0.587 & 0.260$\,\to\,$0.310 & 0.053\\
+Confidence--F1 rank correlation & 0.352$\,\to\,$0.394 & 0.744 & 0.254$\,\to\,$0.281 & 0.755 & 0.256$\,\to\,$0.336 & 0.148 & 0.114$\,\to\,$0.144 & 0.836\\
+\rowcolor{teal!9}\multicolumn{9}{@{}l}{\textbf{Evidence support}}\\
+Supported rules (percentage points) & $\geq +5.0$ & \textemdash & $\geq +0.4$ & \textemdash & -0.4 & \textemdash & $\geq +0.4$ & \textemdash\\
+\bottomrule\end{tabularx}}

@@ -1,0 +1,12 @@
+{
+  "paper": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+  "paper_url": "https://arxiv.org/html/2507.16806v2#A2.SS2",
+  "paper_algorithm": "GRPO with modifications; BNPO token loss; no advantage standard deviation division;32responses perprompt",
+  "official_code": "https://github.com/damanimehul/RLCR/blob/main/GRPO_Trainer.py",
+  "code_bnpo": "sum active token losses / count active tokens in local batch",
+  "current_local_update_path": "outputs/research/claim2_evidence_ablations_20261111/runtime_v19_policytraj_streaming/update.py",
+  "current_update_sha256": "d7149dde820849b7df1ba7560eb15302b44a114874d4414e2fc07c98d5bee31a",
+  "current_local_update": "reward minus group mean; no std division; raw token-sum importance_sampling; denominator1; no PPO clipping or referenceKL",
+  "conclusion": "Current V19 source is not identical to paper BNPO nor full DAPO. Confirm remote manifest hash before claiming deployed identity. Preserve it unchanged for model-only replication.",
+  "author_stated_reason": "Removing standard deviation division might help learning on extreme miscalibrations. No verified DAPO-vs-GRPO choice/ablation in inspected paper."
+}

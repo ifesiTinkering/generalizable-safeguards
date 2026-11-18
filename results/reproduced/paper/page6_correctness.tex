@@ -1,0 +1,28 @@
+\begingroup\fontsize{9.2}{10.0}\selectfont\setlength{\parskip}{0.08em}\setlist[itemize]{itemsep=0.08em,topsep=0.08em}
+\claimheading{3}{Binary correctness rewards can improve F1 over Jaccard on out-of-distribution domains in \DB{} with thinking off in Qwen3.5-9B and GPT-OSS-120B.}
+\textbf{Main findings.}
+\begin{itemize}
+\item \textbf{No reward configuration leads both F1 and confidence accuracy across the tested datasets and domain groups.}
+\begin{itemize}
+\item F1 leaders change with the dataset, domain group and thinking mode (Table~\ref{tab:configuration-leaders}).
+\item \underline{Confidence accuracy has different leaders.} On out-of-distribution domains in \SP{} and \DB{}, ECE favors Qwen3.5-9B Jaccard \armB{} with thinking on and \armD{} with thinking off. GPT-OSS-120B favors binary \armB{} in both modes.
+\end{itemize}
+\end{itemize}
+\input{configuration_leaders_compact}\par
+\begin{itemize}
+\item \textbf{Binary can trade accuracy for better confidence metrics on out-of-distribution domains in \SP{} with thinking on.}
+\begin{itemize}
+\item Jaccard \armB{} compared with binary \armB{} improves F1 by .022 in each model ($p=.0017$ each).
+\item Binary \armB{} compared with Jaccard \armB{} improves error-detection AUROC by .032 in Qwen3.5-9B ($p=.0047$) and ECE by .209 in GPT-OSS-120B ($p=.0017$).
+\end{itemize}
+\item \textbf{Binary improves F1 on out-of-distribution domains in \DB{} with thinking off.} Binary \armA{} compared with Jaccard \armA{} improves F1 in each model. Binary \armC{} compared with Jaccard \armC{} also improves F1 in each model (Table~\ref{tab:matched-correctness}).
+\end{itemize}
+\reporttable{tab:matched-correctness}{Binary minus Jaccard on out-of-distribution domains in \DB{}, thinking off.} Qwen3.5-9B uses four \armA{} seeds and eight \armC{} seeds; GPT-OSS-120B uses three. Positive F1 favors binary; lower ECE and selection loss are better. Bold changes pass the adjusted test. Evidence bounds are descriptive.
+\par\input{correctness_matched_fixed15}\par
+\subsection*{Correctness ablation findings}\reportanchor{sec:correctness-ablations}{Correctness ablation findings}
+\begin{itemize}
+\item \textbf{Jaccard trades precision for recall on out-of-distribution domains in \SP{} with thinking off.} Jaccard \armC{} compared with binary \armC{}, and Jaccard \armD{} compared with binary \armD{}, improve F1 and recall while precision worsens in each model (adjusted $p\leq.0032$).
+\item \textbf{Binary also competes with F1 rewards in Qwen3.5-9B.} On out-of-distribution domains in \DB{} with thinking off, binary \armC{} compared with F1 \armC{} improves F1 by .010 ($p=.0392$). On out-of-distribution domains in \SP{} with thinking on, F1 \armB{} compared with binary \armB{} improves F1 by .019 and worsens error-detection AUROC by .057 ($p=.0017$ each).
+\end{itemize}
+{\fontsize{8.5}{9.6}\selectfont\textbf{Statistical checks.} Each comparison uses the same questions and shared seeds within a model. Correctness comparisons hold the arm fixed. We resample conversations with evaluated checkpoints fixed; policy versions stay together. P-values use the Benjamini--Hochberg adjustment for multiple comparisons. Bold changes pass adjusted $p<.05$. Confidence metrics use valid answers; invalid answers count as incorrect for rule metrics. AUROC requires correct and incorrect answers.}
+\endgroup

@@ -1,0 +1,32 @@
+\begingroup\fontsize{9.3}{10.6}\selectfont\setlength{\parskip}{0.12em}\setlist[itemize]{itemsep=0.10em,topsep=0.10em}
+\claimheading{2}{Evidence rewards can improve rule support on out-of-distribution domains of \SP{}, in Qwen3.5-9B and GPT-OSS-120B.}
+\textbf{Main findings.}
+\begin{itemize}
+\item \textbf{Per-rule evidence credit improves support for predicted rules with thinking on.}
+\begin{itemize}
+\item \underline{More predicted rules receive evidence credit.} \armD{} compared with \armB{} improves the percentage of predicted rules receiving a nonzero evidence score. The gain holds under binary and Jaccard rewards in each model ($p\leq.0042$), including uncertainty from unavailable grades.
+\item For example, binary \armD{} compared with binary \armB{} improves support by at least 14.5 percentage points in Qwen3.5-9B and 2.9 points in GPT-OSS-120B (Table~\ref{tab:evidence-tradeoff}).
+\end{itemize}
+\end{itemize}
+\reporttable{tab:evidence-tradeoff}{Adding per-rule evidence credit to calibration, with thinking on.} Every change is \armD{} minus B. The purple row shows evidence support in percentage points; positive values favor D. Bold changes pass the adjusted test. The test covers the out-of-distribution domains content moderation, specialized advice and intellectual property in \SP{}. Qwen3.5-9B uses eight binary and nine Jaccard seed pairs; GPT-OSS-120B uses three.
+\par\smallskip\input{final_evidence_table}\par\smallskip
+{\small \textbf{Evidence support is the percentage of predicted rules with a nonzero evidence score.} A rule earns credit when its explanation and quote support it and the quote appears in the conversation. We average within answers, then across answers, domains and seeds. Empty predictions score zero. Unavailable grades can range from 0 to 1; $\geq$ gives the smallest possible gain and $\leq$ bounds its p-value conservatively.}
+\subsection*{Evidence ablation findings}\reportanchor{sec:evidence-ablations}{Evidence ablation findings}
+\begin{itemize}
+\item \textbf{Better evidence support can accompany worse confidence metrics on out-of-distribution domains in \SP{} with thinking on.}
+\begin{itemize}
+\item Jaccard \armD{} compared with Jaccard \armB{} worsens mean F1 selection loss in each model; only Qwen3.5-9B passes the adjusted test. GPT-OSS-120B's ECE worsens under binary and Jaccard rewards. C and D also change the correctness weight.
+\item Binary \armC{} compared with binary \armB{} improves support by 2.8 points in GPT-OSS-120B ($p\leq.0042$) and at least 5.4 points in Qwen3.5-9B ($p\leq.0082$). GPT-OSS-120B's ECE worsens by .071 ($p=.0046$), selection loss by .029 ($p=.032$), and AUROC by .062 ($p=.0448$).
+\end{itemize}
+\item \textbf{Out-of-distribution domains in \DB{} show narrower benefits with thinking on.}
+\begin{itemize}
+\item Binary \armD{} compared with binary \armB{} adds at least 1.3 supported rules per 100 answers in each model ($p\leq.0306$ for Qwen3.5-9B; $p\leq.0158$ for GPT-OSS-120B). The percentage-of-rules test passes only for GPT-OSS-120B.
+\item Jaccard \armD{} compared with Jaccard \armB{} changes support by -1.5 to -1.8 points in Qwen3.5-9B and less than .1 point in GPT-OSS-120B.
+\end{itemize}
+\item \textbf{In-distribution-domain evidence gains remain uncertain in most settings with thinking on.}
+\begin{itemize}
+\item On \SP{}, \armD{} compared with \armB{} improves support under binary and Jaccard rewards in each model. Only Qwen3.5-9B's binary gain passes the adjusted test ($p\leq.040$). The other p-values are 1.000 for Qwen3.5-9B Jaccard, .232 for GPT-OSS-120B binary and .250 for GPT-OSS-120B Jaccard.
+\item GPT-OSS-120B Jaccard \armD{} compared with Jaccard \armB{} worsens F1 by .034 and ECE by .036 ($p=.020$ each). On \DB{}, binary \armD{} compared with binary \armB{} has positive support changes in each model. Both changes are uncertain. Jaccard changes have opposite signs.
+\end{itemize}
+\end{itemize}
+\endgroup

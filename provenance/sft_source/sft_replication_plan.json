@@ -1,0 +1,71 @@
+{
+  "adam": {
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "eps": 1e-08
+  },
+  "batch_size": 4,
+  "later_stage_policy": "Controlled gradual unmasking only after format-stage review; define validation performance band and update cap before semantic training. Preserve RL headroom; do not maximize held-out F1.",
+  "learning_rate": 1e-05,
+  "max_output_tokens": 23000,
+  "model": "openai/gpt-oss-120b",
+  "new_provider_calls": 0,
+  "rank": 32,
+  "rank_exception": "User approved rank32 if required by GPT provider",
+  "reference_accuracy_diagnostic_only": {
+    "exact": 0.2222222222222222,
+    "f1": 0.6534634207535449,
+    "precision": 0.6261616161616159,
+    "recall": 0.7040917107583774
+  },
+  "reference_base_model": "Qwen/Qwen3.5-9B",
+  "reference_checkpoint": "checkpoint-sha256:f7273458f0c4576c394cff1c7621dff193c5bae0ee968685103b45b62d1176bf",
+  "reference_format_valid": 86,
+  "reference_total_updates": 101,
+  "reference_valid_rate": 0.9555555555555556,
+  "reference_validation_rows": 90,
+  "required_adaptation": "Qwen-specific EOS/suffix offsets must become GPT-Harmony tokenization with exact masking tests; no reuse of Qwen prepared token IDs",
+  "selection": "Format qualification first. Compare correctness descriptively against same frozen90 Qwen reference; no held-out test selection. Later semantic-stage stopping rule requires definition before launch.",
+  "sft_stages": [
+    {
+      "loss": "Supervise schema/syntax/punctuation/speaker enum only; mask rule selections, answer payload, evidence IDs, quotes, justifications and confidence values",
+      "name": "format_only_from_gpt_base",
+      "qualification": "Frozen90 full-contract validity, Qwen reference86/90; measure baseline before training",
+      "rows": 55,
+      "rule_learning": "No semantic warmup or automatic unmasking in this stage"
+    }
+  ],
+  "status": "revision_required_format_only_first",
+  "superseded_stages": [
+    {
+      "epochs_per_chunk": 3,
+      "loss": "Original phase-specific token masks unchanged except model tokenization",
+      "name": "original_nested_chunks",
+      "rows": [
+        12,
+        10,
+        10
+      ],
+      "updates": 27
+    },
+    {
+      "epochs": 3,
+      "loss": "Original extension mask incl answer and evidence-rule IDs",
+      "name": "additional23",
+      "rows": 23,
+      "updates": 18
+    },
+    {
+      "loss": "Syntax/tags/punctuation/speaker enum; payload masked",
+      "max_epochs": 10,
+      "name": "format_only",
+      "reference_selected_epoch": 4,
+      "reference_updates": 56,
+      "rows": 55,
+      "validate_every_epochs": 2
+    }
+  ],
+  "thinking": false,
+  "user_change": "Format-following-only first, later controlled unmasking toward comparable Qwen starting performance while retaining ample RL headroom.",
+  "validation_selection_leakage": "Use frozen90 only; no held-out panels for selection"
+}

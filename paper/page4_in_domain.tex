@@ -1,0 +1,24 @@
+\begingroup\fontsize{9.2}{10.0}\selectfont\setlength{\parskip}{0.10em}\setlist[itemize]{itemsep=0.10em,topsep=0.10em}
+\subsection*{Claim 1 continued. Calibration also helps on in-distribution domains in \SP{}.}\reportanchor{sec:in-distribution-domain-calibration}{Calibration on in-distribution domains}
+\textbf{Main findings.}
+\begin{itemize}
+\item \textbf{Jaccard calibration improves confidence accuracy on the in-distribution domains privacy, fraud and defamation in \SP{} with thinking on.}
+Jaccard \armB{} compared with Jaccard \armA{} improves ECE in each model ($p=.020$; Table~\ref{tab:in-distribution-domain-calibration}).
+\item \textbf{The same in-distribution domains in \DB{} show uncertain improvements.}
+Both mean ECE changes favor Jaccard \armB{} over Jaccard \armA{}. Adjusted p-values are .542 and .899; both 95\% intervals include zero.
+\end{itemize}
+\reporttable{tab:in-distribution-domain-calibration}{Jaccard calibration on in-distribution domains, with thinking on.} Arrows show \armA{} followed by \armB{}. Domains receive equal weight. Seeds are shared within each model: nine for Qwen3.5-9B and three for GPT-OSS-120B. Bold entries pass the adjusted test. The rows cover 75 conversations in \SP{} and 220 in \DB{}.
+\par\smallskip\input{final_indomain_table}\par\smallskip
+
+\subsection*{Calibration ablation findings}\reportanchor{sec:calibration-ablations}{Calibration ablation findings}
+\begin{itemize}
+\item \textbf{Binary calibration improves F1 on out-of-distribution domains in \SP{} with thinking off.} For example, \armA{}-to-\armB{} F1 improves from .583 to .660 in Qwen3.5-9B and from .104 to .390 in GPT-OSS-120B ($p=.0038$ each). On out-of-distribution domains in \DB{}, Qwen3.5-9B's binary F1 worsens by 4.5 percentage points ($p=.0038$).
+\end{itemize}
+\subsection*{Policy-level ablation on \SP{}, with thinking on}\reportanchor{sec:policy-level-ablation}{Policy-level ablation on \SP{}, with thinking on}
+\begin{itemize}
+\item \textbf{Binary calibration improves the confidence-error trend as the policy changes from L0 to L2 in each model.} Binary \armB{} compared with binary \armA{} improves the L0-to-L2 ECE change ($p=.0048$ per model), starting with worse L0 ECE (Table~\ref{tab:policy-ece-trend}).
+\item \textbf{The test measures policy sensitivity across in-distribution and out-of-distribution domains in \SP{}.} Each domain in Table~\ref{tab:evaluation-panel}, plus discrimination (an out-of-distribution domain), contributes four conversations. L0/L1/L2 policies give 84 positive rows excluded from training and validation. Each checkpoint answers once per row. Policies change the rules and correct answers.
+\end{itemize}
+\input{policy_trend_compact}\par
+\par\smallskip\input{final_example}
+\endgroup

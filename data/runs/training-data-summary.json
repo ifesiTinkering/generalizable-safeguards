@@ -1,0 +1,107 @@
+{
+  "supplement": {
+    "domain_label_counts": [
+      {
+        "domain": "defamation",
+        "positive": false,
+        "rows": 30
+      },
+      {
+        "domain": "defamation",
+        "positive": true,
+        "rows": 77
+      },
+      {
+        "domain": "fraud",
+        "positive": false,
+        "rows": 187
+      },
+      {
+        "domain": "fraud",
+        "positive": true,
+        "rows": 370
+      },
+      {
+        "domain": "privacy",
+        "positive": false,
+        "rows": 187
+      },
+      {
+        "domain": "privacy",
+        "positive": true,
+        "rows": 359
+      }
+    ],
+    "rows": 1210
+  },
+  "train": {
+    "domain_label_counts": [
+      {
+        "domain": "defamation",
+        "positive": false,
+        "rows": 10
+      },
+      {
+        "domain": "defamation",
+        "positive": true,
+        "rows": 130
+      },
+      {
+        "domain": "fraud",
+        "positive": false,
+        "rows": 10
+      },
+      {
+        "domain": "fraud",
+        "positive": true,
+        "rows": 130
+      },
+      {
+        "domain": "privacy",
+        "positive": false,
+        "rows": 10
+      },
+      {
+        "domain": "privacy",
+        "positive": true,
+        "rows": 130
+      }
+    ],
+    "rows": 420
+  },
+  "validation": {
+    "domain_label_counts": [
+      {
+        "domain": "defamation",
+        "positive": false,
+        "rows": 10
+      },
+      {
+        "domain": "defamation",
+        "positive": true,
+        "rows": 20
+      },
+      {
+        "domain": "fraud",
+        "positive": false,
+        "rows": 10
+      },
+      {
+        "domain": "fraud",
+        "positive": true,
+        "rows": 20
+      },
+      {
+        "domain": "privacy",
+        "positive": false,
+        "rows": 10
+      },
+      {
+        "domain": "privacy",
+        "positive": true,
+        "rows": 20
+      }
+    ],
+    "rows": 90
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "checks": 24384,
+  "differences": 0,
+  "examples": [],
+  "max_by_metric": {
+    "F1_AURC": 5.218048215738236e-15,
+    "F1_loss_capture_review20": 1.0547118733938987e-15,
+    "IoU_ECE10": 7.716050021144838e-15,
+    "Jaccard_IoU": 1.4432899320127035e-15,
+    "confidence_F1_Spearman": 0,
+    "confidence_SD": 2.498001805406602e-16,
+    "confidence_mean": 1.9984014443252818e-15,
+    "exact_error_AP": 4.440892098500626e-16,
+    "exact_error_AUROC": 0,
+    "exact_set_accuracy": 0,
+    "parseability": 0,
+    "rule_F1": 9.992007221626409e-16,
+    "rule_precision": 1.1102230246251565e-15,
+    "rule_recall": 1.887379141862766e-15,
+    "supported_predicted_fraction": 1.1102230246251565e-16,
+    "supported_prediction_count": 0
+  }
+}

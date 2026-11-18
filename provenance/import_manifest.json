@@ -1,0 +1,739 @@
+{
+  "files": [
+    {
+      "bytes": 0,
+      "path": "study/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "runpod_code/claim2_reward_design/study/__init__.py"
+    },
+    {
+      "bytes": 1564,
+      "path": "study/__main__.py",
+      "sha256": "4be9de2f76bb060734807e77ccb1997647dd5a013eb317c815420e1da518cbe7",
+      "source": "runpod_code/claim2_reward_design/study/__main__.py"
+    },
+    {
+      "bytes": 662,
+      "path": "study/bootstrap.py",
+      "sha256": "a824569aa02362b9c8aaf2caa6bc69b298ef880a744d9a6bce5fbdf709a32a81",
+      "source": "runpod_code/claim2_reward_design/study/bootstrap.py"
+    },
+    {
+      "bytes": 5020,
+      "path": "study/config.py",
+      "sha256": "296fb868bfc4b795a1e81323ca3862f5965dbf1959fb63d1d2ae610877641a78",
+      "source": "runpod_code/claim2_reward_design/study/config.py"
+    },
+    {
+      "bytes": 1513,
+      "path": "study/model_adapter.py",
+      "sha256": "31668ef49709c9481a55af34279ef8a0657639be676d6d0d1196621cccb6af4c",
+      "source": "runpod_code/claim2_reward_design/study/model_adapter.py"
+    },
+    {
+      "bytes": 1142,
+      "path": "study/portable/cost_plan.py",
+      "sha256": "d0b70ec7d6af92a948a22d18cbe221da530005b838f6cee974ca454c4a63db4a",
+      "source": "runpod_code/claim2_reward_design/study/portable/cost_plan.py"
+    },
+    {
+      "bytes": 675,
+      "path": "study/portable/supplement_protocol.py",
+      "sha256": "bfe0e39f4832d40c647fee10f9985c04d234cdd01ec6319cf0494a22e7abcae6",
+      "source": "runpod_code/claim2_reward_design/study/portable/supplement_protocol.py"
+    },
+    {
+      "bytes": 10534,
+      "path": "study/runner.py",
+      "sha256": "f713bef8714c00f7b1bfd521233b0611b7d62c8aa0ebd1dd8be822d09fb44261",
+      "source": "runpod_code/claim2_reward_design/study/runner.py"
+    },
+    {
+      "bytes": 0,
+      "path": "study/vendor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "runpod_code/claim2_reward_design/study/vendor/__init__.py"
+    },
+    {
+      "bytes": 0,
+      "path": "study/vendor/gpt/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "runpod_code/claim2_reward_design/study/vendor/gpt/__init__.py"
+    },
+    {
+      "bytes": 7184,
+      "path": "study/vendor/gpt/evidence_judge_fallback.py",
+      "sha256": "682a36fdc73537352cc152e9149599f64343f8db609876fb4e035a8489037078",
+      "source": "runpod_code/claim2_reward_design/study/vendor/gpt/evidence_judge_fallback.py"
+    },
+    {
+      "bytes": 1824,
+      "path": "study/vendor/gpt/gpt_modes.py",
+      "sha256": "1cb8e92ad00166e50055578e7a9ac7872bf93722795bf27f4066044187ef4973",
+      "source": "runpod_code/claim2_reward_design/study/vendor/gpt/gpt_modes.py"
+    },
+    {
+      "bytes": 4003,
+      "path": "study/vendor/gpt/judge_provider_adapter.py",
+      "sha256": "c0be81840c6630795cb01889d4edf1122c7507640000d6fe7b24d92886e22426",
+      "source": "runpod_code/claim2_reward_design/study/vendor/gpt/judge_provider_adapter.py"
+    },
+    {
+      "bytes": 0,
+      "path": "study/vendor/operations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "runpod_code/claim2_reward_design/study/vendor/operations/__init__.py"
+    },
+    {
+      "bytes": 843,
+      "path": "study/vendor/operations/branch_namespace.py",
+      "sha256": "b97b309d8ac80324e43773361958b32620752e44bf4a0093055aa7f53e9cfb00",
+      "source": "runpod_code/claim2_reward_design/study/vendor/operations/branch_namespace.py"
+    },
+    {
+      "bytes": 2140,
+      "path": "study/vendor/operations/safe_admission.py",
+      "sha256": "b944a1ec0b621f5cd28bd41ccf33bc0fe5918d879f53b7823c1fa5bd74daaef1",
+      "source": "runpod_code/claim2_reward_design/study/vendor/operations/safe_admission.py"
+    },
+    {
+      "bytes": 4109,
+      "path": "study/vendor/operations/sampler_lifecycle.py",
+      "sha256": "0c3427335b828304243c42cf97c6c0f91d46cafa75319e3c1be307231269e81c",
+      "source": "runpod_code/claim2_reward_design/study/vendor/operations/sampler_lifecycle.py"
+    },
+    {
+      "bytes": 4658,
+      "path": "study/vendor/operations/selection_majority_stop.py",
+      "sha256": "d008830e0509c423dbbd6dfc806f1cd9e3b6b07bb95f0f10a7112be3e9c0bdfa",
+      "source": "runpod_code/claim2_reward_design/study/vendor/operations/selection_majority_stop.py"
+    },
+    {
+      "bytes": 15684,
+      "path": "study/vendor/operations/zero_gradient_cursor.py",
+      "sha256": "674ec3b2f2576ea073497013892bec665f823707e6172d2628aec22414ffd6ed",
+      "source": "runpod_code/claim2_reward_design/study/vendor/operations/zero_gradient_cursor.py"
+    },
+    {
+      "bytes": 0,
+      "path": "study/vendor/qwen/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "runpod_code/claim2_reward_design/study/vendor/qwen/__init__.py"
+    },
+    {
+      "bytes": 0,
+      "path": "study/vendor/shared/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/__init__.py"
+    },
+    {
+      "bytes": 2089,
+      "path": "study/vendor/shared/astra_contract.py",
+      "sha256": "78291d3a155ff4f62f87009edde986f2b1012296b6f87c00b5468513b97ee891",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/astra_contract.py"
+    },
+    {
+      "bytes": 6182,
+      "path": "study/vendor/shared/astra_judge.py",
+      "sha256": "a2a09d888ab15cd1b5585c09613ef117822899ae3c72b86ff720de549485c350",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/astra_judge.py"
+    },
+    {
+      "bytes": 3203,
+      "path": "study/vendor/shared/async_validation_engine.py",
+      "sha256": "78bf97282e70459e044aa2b10c784be67f2429652f9136b61d194d035a126927",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/async_validation_engine.py"
+    },
+    {
+      "bytes": 3415,
+      "path": "study/vendor/shared/cohort_budget.py",
+      "sha256": "089b54fa3a38398f65e501dd1cdef5621f3256a1d61cc8da19a92f063596e36f",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/cohort_budget.py"
+    },
+    {
+      "bytes": 0,
+      "path": "study/vendor/shared/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/data/__init__.py"
+    },
+    {
+      "bytes": 2582,
+      "path": "study/vendor/shared/data/appended_queue.py",
+      "sha256": "1e7a3059937ae7fe804a6d40249dd6f62e39233d1a220f70ef91554825606e67",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/data/appended_queue.py"
+    },
+    {
+      "bytes": 2339,
+      "path": "study/vendor/shared/data/data_recipe.py",
+      "sha256": "ddfdbe0fa0fe584c640709d242bd871b5e8a24c7e422bc5b74bf6561d92f3549",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/data/data_recipe.py"
+    },
+    {
+      "bytes": 4704,
+      "path": "study/vendor/shared/data/deterministic_queue.py",
+      "sha256": "c9404871986e16d1f48d2c830f1de3e0a8f6954e81968052fac65a849dea1878",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/data/deterministic_queue.py"
+    },
+    {
+      "bytes": 15517,
+      "path": "study/vendor/shared/evidence_budget.py",
+      "sha256": "dc4005bdc18cee26fb7980f63ae6f2ff9fd3606d1b9b6f4eaa0a57f0e98a7d9e",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/evidence_budget.py"
+    },
+    {
+      "bytes": 18545,
+      "path": "study/vendor/shared/evidence_engine.py",
+      "sha256": "ca987fc4e81db7dc1a5896db04a2dfca307158fc88aef3fbaf9766ad7c260926",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/evidence_engine.py"
+    },
+    {
+      "bytes": 6431,
+      "path": "study/vendor/shared/evidence_judge_fallback.py",
+      "sha256": "66b06a9d8fd38458b156b6175fb32ff0fb5377c483fa29438b63ada0ddfd0f19",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/evidence_judge_fallback.py"
+    },
+    {
+      "bytes": 8310,
+      "path": "study/vendor/shared/format_contract_v2.py",
+      "sha256": "e40f990d33f0ded4d0d0cb2787ce78892dc14703648d28bfda9c756510acbce7",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/format_contract_v2.py"
+    },
+    {
+      "bytes": 865,
+      "path": "study/vendor/shared/judge_factory.py",
+      "sha256": "b2f7ed88e52ef78d4fecba4ef12bb6fd91ff2d60d9db2449d0effd137d4876d2",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/judge_factory.py"
+    },
+    {
+      "bytes": 3565,
+      "path": "study/vendor/shared/judge_provider_adapter.py",
+      "sha256": "95f568371e521d36e4307fe52d3b78d12d68feb158746c5784c0664084a4cb6c",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/judge_provider_adapter.py"
+    },
+    {
+      "bytes": 20872,
+      "path": "study/vendor/shared/live_backend.py",
+      "sha256": "12cec41ec422de8c76309e14e2a156891fb1e5aff100ad1463145c1328d36c4b",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/live_backend.py"
+    },
+    {
+      "bytes": 910,
+      "path": "study/vendor/shared/milestone_pins.py",
+      "sha256": "471cbc8e671d3331c02f4c0ac9107cfa258afef56bdb51ce2c102d6339e58f38",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/milestone_pins.py"
+    },
+    {
+      "bytes": 917,
+      "path": "study/vendor/shared/objective_prompts.py",
+      "sha256": "4bb366c44aa4aa539074cb383233507262fddc9b8d99de9f0e16361b514c2f3b",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/objective_prompts.py"
+    },
+    {
+      "bytes": 2870,
+      "path": "study/vendor/shared/prompts.py",
+      "sha256": "8d0523033ae32e6384450768be3553bc26732a50a1b8cf54d0357e09a54042cd",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/prompts.py"
+    },
+    {
+      "bytes": 721,
+      "path": "study/vendor/shared/protocol.py",
+      "sha256": "8162024ea4d81c1b738b4b8deadf5249711c3b7b353ab3382b1724c4634575c8",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/protocol.py"
+    },
+    {
+      "bytes": 6084,
+      "path": "study/vendor/shared/reward.py",
+      "sha256": "83d5ec207af622387185e971f3ea5feda3c774c6233653b934c2ec27a21f2b56",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/reward.py"
+    },
+    {
+      "bytes": 7851,
+      "path": "study/vendor/shared/reward_pipeline.py",
+      "sha256": "6ab034b6ef234153f09f5bf5a9e6df3d00964dce02cbc1d9fbc0008b5f9f8ee6",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/reward_pipeline.py"
+    },
+    {
+      "bytes": 699,
+      "path": "study/vendor/shared/science_stop.py",
+      "sha256": "3a259eef52afee4a0fbc889719edd1a7b79bc57da7919b6921f02d3fc754f502",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/science_stop.py"
+    },
+    {
+      "bytes": 904,
+      "path": "study/vendor/shared/student_attempts.py",
+      "sha256": "3be6f583ad1efc01bf9ba60620629ae20aa2cd5da7aa5316088ebc5bd6dc0fef",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/student_attempts.py"
+    },
+    {
+      "bytes": 6096,
+      "path": "study/vendor/shared/update.py",
+      "sha256": "d7149dde820849b7df1ba7560eb15302b44a114874d4414e2fc07c98d5bee31a",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/update.py"
+    },
+    {
+      "bytes": 1772,
+      "path": "study/vendor/shared/validation_aurc.py",
+      "sha256": "8011b09d3348945508898446ff19608073d310f57c97b6d53e7ee3a71fef8138",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/validation_aurc.py"
+    },
+    {
+      "bytes": 2575,
+      "path": "study/vendor/shared/validation_manager.py",
+      "sha256": "6b7e0fff3c69e56bed661b45942664675349417fcc656f9d1620c67ab03c02c1",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/validation_manager.py"
+    },
+    {
+      "bytes": 8584,
+      "path": "study/vendor/shared/validation_metric_adapter.py",
+      "sha256": "8da1e7226143efa453f9b34d4a2985b60fad1a104bb2ca50a67cff7ce089e52a",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/validation_metric_adapter.py"
+    },
+    {
+      "bytes": 2329,
+      "path": "study/vendor/shared/validation_metric_matrix.py",
+      "sha256": "8cec28065c2021e36138b145c0c6d557546e1de33980186d05fc45a24bdaecd0",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/validation_metric_matrix.py"
+    },
+    {
+      "bytes": 3256,
+      "path": "study/vendor/shared/validation_metric_registry.py",
+      "sha256": "5c5440d080c6e7647d665c3b5e619ea118a729ff33ac8f6fb5ef0f06aafb7ae3",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/validation_metric_registry.py"
+    },
+    {
+      "bytes": 8054,
+      "path": "study/vendor/shared/validation_metrics_extension.py",
+      "sha256": "4caf5198ded993e70a16b4c16a89c0ddbc8ed652e213f95eecad424f59c6c268",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/validation_metrics_extension.py"
+    },
+    {
+      "bytes": 4259,
+      "path": "study/vendor/shared/validation_protocol.py",
+      "sha256": "c1c9a3259abde3e2fa312596dd6e0ebb737e0bf212815b2767b9bea1821fe704",
+      "source": "runpod_code/claim2_reward_design/study/vendor/shared/validation_protocol.py"
+    },
+    {
+      "bytes": 456,
+      "path": "study/vendor/gpt/rates.json",
+      "sha256": "fbea4d2f44b6b9487d70c0aa855e6c02dfc74e57fae9d44928a109429fe8ec10",
+      "source": "runpod_code/claim2_reward_design/study/vendor/gpt/rates.json"
+    },
+    {
+      "bytes": 480,
+      "path": "study/vendor/qwen/rates.json",
+      "sha256": "03396beabacb7b191d750a306e00a2fd2e00f2ce1ed59c5a85be8e5c665861f1",
+      "source": "runpod_code/claim2_reward_design/study/vendor/qwen/rates.json"
+    },
+    {
+      "bytes": 9108,
+      "path": "provenance/source_manifest.json",
+      "sha256": "762f366466b0e97abef51e14cd7aac1c2ae96b14d2e27dc98cb52d1e2d33f6c1",
+      "source": "runpod_code/claim2_reward_design/provenance/source_manifest.json"
+    },
+    {
+      "bytes": 4719,
+      "path": "tests/training_test_engine_boundary.py",
+      "sha256": "db57120ba4a2f279a47d2c4da2d4d5a257c3aeddc36360d3d27bfeb1d5c12622",
+      "source": "runpod_code/claim2_reward_design/tests/test_engine_boundary.py"
+    },
+    {
+      "bytes": 4422,
+      "path": "tests/training_test_science.py",
+      "sha256": "3b646a3206acb19bd5046a7c99cd33d8ba1c6a71db9c3ce259c357fc4b4b5efa",
+      "source": "runpod_code/claim2_reward_design/tests/test_science.py"
+    },
+    {
+      "bytes": 825,
+      "path": "configs/training/gpt.example.json",
+      "sha256": "0037537d1e84c8f40baff3d6f8e29d44d982dc41e2d688e073f3a8aa539ddd1e",
+      "source": "runpod_code/claim2_reward_design/configs/gpt.example.json"
+    },
+    {
+      "bytes": 829,
+      "path": "configs/training/qwen.example.json",
+      "sha256": "89636d19a8967a926de8c5bc2ab55214ae0e0245669e379df638c922224c74e4",
+      "source": "runpod_code/claim2_reward_design/configs/qwen.example.json"
+    },
+    {
+      "bytes": 246,
+      "path": "requirements-live.txt",
+      "sha256": "af30f9be85cbfd7fbf6f7d133cda2e7ca13d8bb811fc6ab4d0fff6e6b5ea3658",
+      "source": "runpod_code/claim2_reward_design/requirements-live.txt"
+    },
+    {
+      "bytes": 579,
+      "path": "NOTICE.md",
+      "sha256": "2a3f1283d784ec095177e8bea76f389395bd1ddef1b33df27da7752a5dc30129",
+      "source": "runpod_code/claim2_reward_design/NOTICE.md"
+    },
+    {
+      "bytes": 2556,
+      "path": "paper/main.tex",
+      "sha256": "73bbe3b9efb3de7c701c234b73dca4b4e7582913206fb8bf7865f48299c1e33d",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/main.tex"
+    },
+    {
+      "bytes": 3107,
+      "path": "paper/page1_setup.tex",
+      "sha256": "3058a0a61e7c4ecae965b2cb4669c2605a7b66cdf9c9755ed356b12b9cd6a8e5",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/page1_setup.tex"
+    },
+    {
+      "bytes": 1928,
+      "path": "paper/literal_model_output.tex",
+      "sha256": "7f54a8dec0d60a2782550c34f5eac27045de1c49a32b97ed19803aa65da84e05",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/literal_model_output.tex"
+    },
+    {
+      "bytes": 923,
+      "path": "paper/training_rows_table.tex",
+      "sha256": "6c6826e25909878405dcf148211f84f7b38a015526880c0ba3f7737e49e131c7",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/training_rows_table.tex"
+    },
+    {
+      "bytes": 617,
+      "path": "paper/sft_starting_performance_compact.tex",
+      "sha256": "c6573f4f842fa6bebb06ad190e764a4bf7bfd3905856cb3388d517392f825d64",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/sft_starting_performance_compact.tex"
+    },
+    {
+      "bytes": 658,
+      "path": "paper/reward_settings_table.tex",
+      "sha256": "c88bfe3c4e4668c874bed17fdbd9d67b2cfeee2fe5845e9ccb0f507c2d049059",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/reward_settings_table.tex"
+    },
+    {
+      "bytes": 855,
+      "path": "paper/evaluation_setup_table.tex",
+      "sha256": "d43db62565db69ba881cd690540c4b484aaaa2cb7955854b3f7346f0222f9af0",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/evaluation_setup_table.tex"
+    },
+    {
+      "bytes": 2862,
+      "path": "paper/page2_calibration.tex",
+      "sha256": "d0e57b1caff5dd3c4c11ac224d9a32f24acd4219e6b537591b0f2e726722013d",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/page2_calibration.tex"
+    },
+    {
+      "bytes": 3521,
+      "path": "paper/final_calibration_table.tex",
+      "sha256": "bf11fa7309118b0016f3bf4b7e0a433bb243d99d7481d4781f73dbcfa2d2d9ec",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/final_calibration_table.tex"
+    },
+    {
+      "bytes": 1033,
+      "path": "paper/sft_control_compact.tex",
+      "sha256": "0a3495db0a016b463385454d8516b3f3ca3e16a0849b9e1a7b6ba24887068681",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/sft_control_compact.tex"
+    },
+    {
+      "bytes": 2752,
+      "path": "paper/page4_in_domain.tex",
+      "sha256": "48048f1322fe66d9e28a1d17216e16cbe9d09abe06c15a6d006abf45acf35c60",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/page4_in_domain.tex"
+    },
+    {
+      "bytes": 3511,
+      "path": "paper/final_indomain_table.tex",
+      "sha256": "d921c2112493eabf07806e99aab7633000bc0fd767c1bcb24bb14c9a522d21ca",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/final_indomain_table.tex"
+    },
+    {
+      "bytes": 676,
+      "path": "paper/policy_trend_compact.tex",
+      "sha256": "79a5cb2c9e063d7322efd61f25bb3648eb8d335d3bca9691765a9786863a55b5",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/policy_trend_compact.tex"
+    },
+    {
+      "bytes": 794,
+      "path": "paper/final_example.tex",
+      "sha256": "b3581899f62eee9f00d59a6045684a459f3ccd230f5d69d3d1502080560d24ea",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/final_example.tex"
+    },
+    {
+      "bytes": 3932,
+      "path": "paper/page5_evidence.tex",
+      "sha256": "054e85d1afa2e73118e8b52639b81c748ca5c346a42c9591e251a8b007b3b94d",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/page5_evidence.tex"
+    },
+    {
+      "bytes": 2780,
+      "path": "paper/final_evidence_table.tex",
+      "sha256": "667399fc968f7b55405dcbfbfb08eaa10fbd83a0c5cfe73cd5c059e204ee2dc7",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/final_evidence_table.tex"
+    },
+    {
+      "bytes": 3346,
+      "path": "paper/page6_correctness.tex",
+      "sha256": "dc246480baa387be9fd91f443cb81a68f8dab495f77788ee0ac48d76b1635ff9",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/page6_correctness.tex"
+    },
+    {
+      "bytes": 804,
+      "path": "paper/configuration_leaders_compact.tex",
+      "sha256": "86dcccea3b9d7f13eab80fbf40d147b197c8789f2289fe2b31a1c49d7e14e6fb",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/configuration_leaders_compact.tex"
+    },
+    {
+      "bytes": 2666,
+      "path": "paper/correctness_matched_fixed15.tex",
+      "sha256": "ed51810c8d1ded8d3c4f6cb8cf4044987e069c1f151816de0755f7abfcb8f70b",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/correctness_matched_fixed15.tex"
+    },
+    {
+      "bytes": 218993,
+      "path": "paper/report.pdf",
+      "sha256": "02b1f331b649907140093f314eb607dc061c3d3cbf4de580068a3cb1ec2dcd38",
+      "source": "output/pdf/qwen_reward_extension_20261116/overleaf_compiled.pdf"
+    },
+    {
+      "bytes": 4885,
+      "path": "provenance/report_release.json",
+      "sha256": "21d35845641906d7454fa7ba2299ee7196f36c378b3ab0a4d468549727fcd854",
+      "source": "output/pdf/qwen_reward_extension_20261116/REPORT_RELEASE_CURRENT.json"
+    },
+    {
+      "bytes": 1129,
+      "path": "provenance/overleaf_verification.json",
+      "sha256": "f7aec7292e4c543a685b73f04d054d123238849e396de5f621dc398a55b8fc78",
+      "source": "output/pdf/qwen_reward_extension_20261116/OVERLEAF_CURRENT_VERIFY.json"
+    },
+    {
+      "bytes": 2631,
+      "path": "provenance/paper_sources.json",
+      "sha256": "c34b55b25922bf4ed70397dab3bdf90589386fef430995c5465dd2879cd67c94",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/ACTIVE_SOURCE_MANIFEST.json"
+    },
+    {
+      "bytes": 1865,
+      "path": "provenance/claim3_table_binding.json",
+      "sha256": "71bfd70561bda7d2b3430007245570350df662d02538d1b60d3a662a8db9fda0",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/CLAIM3_TABLE_BINDING.json"
+    },
+    {
+      "bytes": 1698,
+      "path": "provenance/literal_output_source.json",
+      "sha256": "220ddc232b624bec3e3574088840adb81c6cc5c74f4987b252bcf0619694e851",
+      "source": "output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/LITERAL_OUTPUT_SOURCE.json"
+    },
+    {
+      "bytes": 109345,
+      "path": "data/statistics/ood_points.json.gz",
+      "sha256": "46ce6de66b09addb6ce82cf60e479568870291488c8ee8d0fbc382cb5e70c0d9",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/FIXED24_POINTS_WITH_BOUNDS_1794879311.json.gz"
+    },
+    {
+      "bytes": 16160,
+      "path": "data/statistics/ood_calibration.json.gz",
+      "sha256": "83a0debcc522554c6fba660d11f7b8267ef1c41039063b5f0221aba97b5e95c3",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/CALIBRATION_INFERENCE.json.gz"
+    },
+    {
+      "bytes": 60982,
+      "path": "data/statistics/ood_sft_points.json.gz",
+      "sha256": "3d024863594a81f7065d0962830049208a11e83c6fb379a007091d58c935a07c",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/SFT_POINTS_WITH_BOUNDS_1794879311.json.gz"
+    },
+    {
+      "bytes": 65182,
+      "path": "data/statistics/ood_sft_inference.json.gz",
+      "sha256": "198e9f48c971e3a06462a6ec47aa6ece8cc5acaaa4c9c3aa9ff26fb60a314655",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/SFT_INFERENCE.json.gz"
+    },
+    {
+      "bytes": 37131,
+      "path": "data/statistics/ood_evidence.json.gz",
+      "sha256": "236b8c0b3663a9c846a180753ff06734804ea8255713c4ca825e9fc00bff3898",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/RECIPE_SEMANTIC_1794878200.json.gz"
+    },
+    {
+      "bytes": 160272,
+      "path": "data/statistics/ood_evidence_missing.json",
+      "sha256": "6dfbe6c514e518494e67dd43a257e565b469c3967b0ca5e070d75c099486e7d5",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/ADVERSE_MISSING_EVIDENCE_MULTIPLICITY.json"
+    },
+    {
+      "bytes": 1096570,
+      "path": "data/statistics/ood_latest_C.json",
+      "sha256": "9218a426c43884f9e8a1a457139a79ac9c20464d0d78a1f0e8053e44b0e982d6",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/REPORT_READY_CHANGES.json"
+    },
+    {
+      "bytes": 800427,
+      "path": "data/statistics/id_inference.json.gz",
+      "sha256": "ac65ab0b274493dd6d691821666e7e6039f1c035b72039909797933f475c287d",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/ID_FINAL_INFERENCE.json.gz"
+    },
+    {
+      "bytes": 179737,
+      "path": "data/statistics/id_reader.json",
+      "sha256": "78e88a4a7e51c1175f55f9394c7931c6fe75c30db0b8f6f8434202bced71a849",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/ID_FINAL_FIXED16_READER_TABLE.json"
+    },
+    {
+      "bytes": 387019,
+      "path": "data/statistics/id_all_arms.json",
+      "sha256": "5dde1bf158987e6bdb5a7634cab661fc00e572c705affc5f342e85e81d71d83d",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/ID_READER_ALL_ARMS.json"
+    },
+    {
+      "bytes": 713284,
+      "path": "data/statistics/correctness_points.json",
+      "sha256": "d2aa6e9265a5e745567c04d8b047b3df3f6a98bfca1f0cbe2d1786a83e490b74",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/CONSERVATIVE_V2/FIXED15_MATCHED_TABLES.json"
+    },
+    {
+      "bytes": 93184,
+      "path": "data/statistics/correctness_tests.json.gz",
+      "sha256": "f60a22187cffd33fc0f5a6ed4ff55708388263570668a0e63f50aa53d63f3f78",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/CONSERVATIVE_V2/RESULTS.json.gz"
+    },
+    {
+      "bytes": 65872,
+      "path": "data/statistics/correctness_evidence.json",
+      "sha256": "5375cc73be047e23d96e6782c8d3b290465f10de21c9ff6eba27aeeb84e8aeec",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/CONSERVATIVE_V2/EVIDENCE_DESCRIPTIVE_BOUNDS.json"
+    },
+    {
+      "bytes": 93582,
+      "path": "data/statistics/correctness_original.json.gz",
+      "sha256": "135c386f5612b9f096e443ca47d0798a3cfa57d7a8732c4a80e33ce53f26b04b",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/RESULTS.json.gz"
+    },
+    {
+      "bytes": 141116,
+      "path": "data/statistics/policy_metrics.json.gz",
+      "sha256": "6dd238d35d7f91afab21478c942b7108167f41f984336cfad5a82492a17c6333",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/FULL16_COMPLETE28_SEMANTIC_FINAL.json.gz"
+    },
+    {
+      "bytes": 41463,
+      "path": "data/statistics/policy_secondary.json.gz",
+      "sha256": "7c13c90e9e7117c3a2c20ab1d99dda261e13e787de5788b2240988665b843a88",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/SECONDARY_FULL28_RESULTS.json.gz"
+    },
+    {
+      "bytes": 1240357,
+      "path": "data/statistics/policy_core.json.gz",
+      "sha256": "29b220d671abd5a1ac2357b8801298f9f7ed0e2d0c8721e1184f4ebcf9980842",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/PRIMARY_FULL28_CORE_RESULTS.json.gz"
+    },
+    {
+      "bytes": 48624,
+      "path": "data/statistics/policy_trends.json",
+      "sha256": "a4892efff81987af4f2615d6e26eead4408482328db9009e787bc4a7a6ffa977",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/POLICY_TRENDS_READER_FINAL.json"
+    },
+    {
+      "bytes": 4583,
+      "path": "data/statistics/training_methods.json",
+      "sha256": "283e2449f5cddd46fe4ea158ae980cd0e1f996edc2af6a01fd703497ec2d7cc8",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/qwen/TRAINING_METHODS_QWEN_GPT_COMPARISON.json"
+    },
+    {
+      "bytes": 6493,
+      "path": "provenance/original_analysis/common926_v1__analyze.py",
+      "sha256": "f6f905ed15334aab49604dfb5903ad1ebe0916ab2b11db653c33b2cc4185bc27",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/analyze.py"
+    },
+    {
+      "bytes": 3301,
+      "path": "provenance/original_analysis/full_panel_coverage_audit_v1__weighted_panel_metrics.py",
+      "sha256": "5ef83953b4981f23fbf7260e865ce03cb429794de508bea4375982ac7c6605c8",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/weighted_panel_metrics.py"
+    },
+    {
+      "bytes": 6929,
+      "path": "provenance/original_analysis/full_panel_coverage_audit_v1__analyze_full_panel_arrays.py",
+      "sha256": "c46e6432ec85d042e5a6d7f619a60630e86bd1bd1c7bc5d501fc1466b69d09f9",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/analyze_full_panel_arrays.py"
+    },
+    {
+      "bytes": 4018,
+      "path": "provenance/original_analysis/ID400_calibration_v1__batched_fixed_metrics.py",
+      "sha256": "2b75408cd543c8f51bf5c40f140de3cc97f0e0c621a882ff123e1a3a77240295",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/ID400_calibration_v1/batched_fixed_metrics.py"
+    },
+    {
+      "bytes": 11891,
+      "path": "provenance/original_analysis/ID400_calibration_v1__analyze_frozen_v2.py",
+      "sha256": "1ad4311d9f1bc84c737fe3dc0e838ef0e0b5e060000207e723b31eb3b8896248",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/ID400_calibration_v1/analyze_frozen_v2.py"
+    },
+    {
+      "bytes": 5525,
+      "path": "provenance/original_analysis/ID400_calibration_v1__analyze_batched.py",
+      "sha256": "01e2c1d7abc7f357b6b612703b02ccf8e3fc58c73cfae6af989e269ab1f35cea",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/ID400_calibration_v1/analyze_batched.py"
+    },
+    {
+      "bytes": 2804,
+      "path": "provenance/original_analysis/policy_triplets28_v3__secondary_metrics.py",
+      "sha256": "eeabc2f135ec504d90f952c339892480248a02757549719fc136e1d6b220167d",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/secondary_metrics.py"
+    },
+    {
+      "bytes": 6495,
+      "path": "provenance/original_analysis/policy_triplets28_v3__analyze_secondary.py",
+      "sha256": "32eaf9ad553c5b2e62035dfa643aeb061601d7d591c8e8919f3fa44307088d14",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/analyze_secondary.py"
+    },
+    {
+      "bytes": 10543,
+      "path": "provenance/original_analysis/direct_correctness_secondary_v1__run.py",
+      "sha256": "3d11927dc7d1037fd8c6569afe68c0e24b98bad71af5eb701fa031056bec6020",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/run.py"
+    },
+    {
+      "bytes": 1327,
+      "path": "provenance/original_analysis/CONSERVATIVE_V2__reproduce.py",
+      "sha256": "87609696c322a137097ddaf3d96e89dd2c1ec976538af12c7523743e4b15c913",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/CONSERVATIVE_V2/reproduce.py"
+    },
+    {
+      "bytes": 8404,
+      "path": "provenance/original_analysis/common926_v1__support_bounds_final.py",
+      "sha256": "bb268db65f95b7d40f5de6979e96a5f58b9aaceee6f2e6fdd06274b1df5469d7",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/support_bounds_final.py"
+    },
+    {
+      "bytes": 5142,
+      "path": "provenance/original_analysis/common926_v1__sft_sensitivity.py",
+      "sha256": "33e7772814c5317c5f2b8f64b8103613eadfe3bfefeb31e10d0065d4f7c90d7f",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/sft_sensitivity.py"
+    },
+    {
+      "bytes": 513081,
+      "path": "provenance/plans/ood.json",
+      "sha256": "d8bfa02641f75aa954290a980db33ec452be430671b9e2646faaac9f9499489b",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/PLAN.json"
+    },
+    {
+      "bytes": 213947,
+      "path": "provenance/plans/id.json",
+      "sha256": "9574293f0a1f6634244bbff39a85a5d2bc1189b4651d6072f1c07a09dcfbbf3a",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/ID400_calibration_v1/ANALYSIS_PLAN_FROZEN.json"
+    },
+    {
+      "bytes": 4393,
+      "path": "provenance/plans/correctness.json",
+      "sha256": "8bb99da9cf644dc3d0d7664a349651d9ebebf19e05d2a32d958d6a4e8c52dd02",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/PLAN_FROZEN.json"
+    },
+    {
+      "bytes": 15661,
+      "path": "provenance/plans/correctness_amendment.json",
+      "sha256": "9f41d1e2860784a9fca10edc3b6ede0e01674bb14c43b3d31852be45e36eac3e",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/CONSERVATIVE_V2/AMENDMENT.json"
+    },
+    {
+      "bytes": 149366,
+      "path": "provenance/plans/policy.json",
+      "sha256": "88f5766338276efee0be3cc074bd6cd46baf0ef1b22e8ef665658d3bc43a4d2f",
+      "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/SECONDARY_REMAINING14_PLAN_FROZEN.json"
+    }
+  ],
+  "overleaf_unchanged": true,
+  "provider_calls": 0,
+  "schema": "workspace-curation-v1"
+}

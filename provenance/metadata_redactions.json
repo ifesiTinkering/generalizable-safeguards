@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "ac65ab0b274493dd6d691821666e7e6039f1c035b72039909797933f475c287d",
+      "path": "data/statistics/id_inference.json.gz",
+      "public_sha256": "6481b8bc71bb6ce675cb28962ae2c45f644491a2b82e46466b60a83ec2ce9d3d"
+    },
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "48ef2b6a5930cb39600609ee6ac94b11885abb1f7ba82a21e7d00646bca1acc8",
+      "path": "data/statistics/policy_adjacent.json.gz",
+      "public_sha256": "c6ec8660943e7de3b110ed61f0a008d98b2c5c135c9ed9cb25106491dba0ebd4"
+    },
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "29b220d671abd5a1ac2357b8801298f9f7ed0e2d0c8721e1184f4ebcf9980842",
+      "path": "data/statistics/policy_core.json.gz",
+      "public_sha256": "610e31267afbb9804e48e514b6083088a66cc0676849cc45d3e6e371431543fa"
+    },
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "6dd238d35d7f91afab21478c942b7108167f41f984336cfad5a82492a17c6333",
+      "path": "data/statistics/policy_metrics.json.gz",
+      "public_sha256": "f20a0c2fbaebee2d56e6857c152dd789b128e3758cd3c443ec57bc97badef380"
+    },
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "7c13c90e9e7117c3a2c20ab1d99dda261e13e787de5788b2240988665b843a88",
+      "path": "data/statistics/policy_secondary.json.gz",
+      "public_sha256": "8f2d3176bb0973a03d87441d38fbd628d84ef1c4d1f7f74e231186fa927bf9f8"
+    },
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "a4892efff81987af4f2615d6e26eead4408482328db9009e787bc4a7a6ffa977",
+      "path": "data/statistics/policy_trends.json",
+      "public_sha256": "204482269011e9ed716cb61042744f709e202f9d7f6cc4cae40c8c795bd6dab1"
+    },
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "279396406dfdf30ba967ccff0f18026831088722630fc7c11db07c85411400d9",
+      "path": "data/statistics/sft_starting.json",
+      "public_sha256": "11f7fffd9364e6a32461c86cb7724c30a20f9fe240c5233e345e8a72db84d8e9"
+    },
+    {
+      "change": "Provider URIs replaced by SHA256 identity references; numeric values unchanged",
+      "original_sha256": "a453e30c5447b097058ab4a1362e5241028aa088eb2a0acb133e3d851269c4cb",
+      "path": "provenance/sft_source/sft_replication_plan.json",
+      "public_sha256": "3a11968bad227badfdf353410185cd09f5ec7fe5b9f13378717cb31c78b0fde3"
+    }
+  ],
+  "originals": "private/original-metadata",
+  "provider_calls": 0
+}

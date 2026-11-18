@@ -1,0 +1,10 @@
+{\fontsize{8.5}{9.5}\selectfont\setlength{\tabcolsep}{4pt}
+\reporttable{tab:training-rows}{Training rows by phase, dataset and domain.}
+\par\begin{tabularx}{\linewidth}{@{}X>{\columncolor{teal!4}}r>{\columncolor{teal!4}}r>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{violet!4}}r>{\columncolor{violet!4}}r@{}}\toprule
+& \multicolumn{2}{c}{\textbf{Supervised fine-tuning}} & \multicolumn{4}{c}{\textbf{Reinforcement learning}}\\
+& \multicolumn{2}{c}{\shortstack{SafePyramid\\in-distribution dataset}} & \multicolumn{2}{c}{\shortstack{SafePyramid\\in-distribution dataset}} & \multicolumn{2}{c}{\shortstack{PolicyTraj\\\strut}}\\
+In-distribution domain & Positive rows & Negative rows & Positive rows & Negative rows & Positive rows & Negative rows\\\midrule
+Privacy & 0 & 0 & 130 & 10 & 359 & 187\\
+Fraud & 0 & 0 & 130 & 10 & 370 & 187\\
+Defamation & 50 & 5 & 130 & 10 & 77 & 30\\\bottomrule
+\end{tabularx}}

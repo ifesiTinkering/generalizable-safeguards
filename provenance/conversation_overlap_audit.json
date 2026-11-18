@@ -1,0 +1,32 @@
+{
+  "id": {
+    "distinct_rendered_conversations": 295,
+    "overlap": {
+      "RL original": 0,
+      "RL supplement": 0,
+      "SFT55": 0,
+      "original_SFT_source_pool": 0,
+      "validation": 0
+    }
+  },
+  "ood": {
+    "distinct_rendered_conversations": 826,
+    "overlap": {
+      "RL original": 0,
+      "RL supplement": 0,
+      "SFT55": 0,
+      "original_SFT_source_pool": 0,
+      "validation": 0
+    }
+  },
+  "policy": {
+    "distinct_rendered_conversations": 28,
+    "overlap": {
+      "RL original": 0,
+      "RL supplement": 0,
+      "SFT55": 0,
+      "original_SFT_source_pool": 0,
+      "validation": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "all-evidence-missing-grade-secondary-sensitivity-v1",
+  "frozen_unix": 1794886665.961875,
+  "purpose": "Complete secondary missing-grade-aware sensitivity after ordinary evidence results were inspected; not confirmatory and does not replace original512 results.",
+  "families": [
+    "Qwen",
+    "GPT"
+  ],
+  "targets": [
+    "binary",
+    "iou"
+  ],
+  "Qwen_secondary_target": "partial",
+  "sources": [
+    "safepyramid",
+    "dynabench"
+  ],
+  "modes": [
+    "OFF",
+    "TWO_STAGE_ON"
+  ],
+  "contrasts": [
+    "C-B",
+    "D-B"
+  ],
+  "endpoints": [
+    "supported_predicted_fraction",
+    "supported_prediction_count",
+    "all_predicted_rules_supported"
+  ],
+  "evaluated_slots": 120,
+  "correction_family_size": 512,
+  "remaining_slots": 392,
+  "remaining_slot_p": 1,
+  "multiplicity": "Single BH512 and Holm512 calculation across all120 evaluated endpoints plus392 p=1 slots. Count is a new secondary endpoint, not retroactively in the original512 recipe family.",
+  "method": "Unchanged support_bounds_final.sensitivity: unknown support0..1/count0..predicted; paired conversation bootstrap1999; maximum random-sign null statistic over all allowed missing assignments; p upper bound; same fixed paired seeds and equal-domain weights. Qwen F1 uses all9 current seeds.",
+  "missing_data": "No resampling, unknown-zero ordinary point or outcome-based scope selection. Positive and negative directions tested symmetrically.",
+  "sampling": "0 new provider calls; 1999 are offline statistical resamples.",
+  "source_sha256": "bb268db65f95b7d40f5de6979e96a5f58b9aaceee6f2e6fdd06274b1df5469d7",
+  "original_results_sha256": "236b8c0b3663a9c846a180753ff06734804ea8255713c4ca825e9fc00bff3898",
+  "interpretation": "Conditioned on these selected checkpoints and retained question support. Shared benefit requires both model effects and adjusted upper p to support it. All-seed signs and leave-one-seed ranges reported; 3 GPT seeds are not an exact3-seed sign test."
+}

@@ -1,0 +1,13 @@
+{
+  "provider_calls": 0,
+  "frozen_scientific_files": 38,
+  "frozen_analysis_inputs": 29,
+  "scored_observations": 767080,
+  "paper_pdf_sha256": "02b1f331b649907140093f314eb607dc061c3d3cbf4de580068a3cb1ec2dcd38",
+  "checkpoint_count": 127,
+  "cell_metric_checks": 24384,
+  "max_absolute_error": 7.716050021144838e-15,
+  "comparison_point_checks": 1416,
+  "in_domain_and_policy_metric_checks": 8656,
+  "checkpoint_selection_replays": 101
+}

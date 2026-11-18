@@ -1,0 +1,38 @@
+{
+  "additional_inference_parity_fields": {
+    "full_calibration_replay": 960,
+    "full_correctness_replay": 7056,
+    "full_evidence_replay": 3160,
+    "full_qwen_f1_calibration_replay": 240
+  },
+  "answer_archive_shards": 175,
+  "inference_parity": {
+    "checks": 11160,
+    "differences": [],
+    "provider_calls": 0
+  },
+  "live_provider_execution": "Not exercised by this consolidation",
+  "new_training_sampling_or_grading_calls": 0,
+  "numerical_verification": {
+    "cell_metric_checks": 24384,
+    "checkpoint_count": 127,
+    "checkpoint_selection_replays": 101,
+    "comparison_point_checks": 1416,
+    "frozen_analysis_inputs": 29,
+    "frozen_scientific_files": 38,
+    "in_domain_and_policy_metric_checks": 8656,
+    "max_absolute_error": 7.716050021144838e-15,
+    "paper_pdf_sha256": "02b1f331b649907140093f314eb607dc061c3d3cbf4de580068a3cb1ec2dcd38",
+    "provider_calls": 0,
+    "scored_observations": 767080
+  },
+  "offline_clean_install": "Fresh Git clone passed",
+  "overleaf_modified": false,
+  "publication": "Not published; source licensing and artifact distribution remain author decisions",
+  "raw_answer_records": 767080,
+  "reader_workflow_review": "reports/reader-audit.md",
+  "source_payloads_restored_and_verified": true,
+  "statistical_recalculation": "Four complete command families passed",
+  "status": "Ready for local review",
+  "tests_passed": 34
+}

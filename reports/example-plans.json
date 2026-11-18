@@ -1,0 +1,124 @@
+[
+  {
+    "answer_slots": 10000,
+    "budget_note": "Tinker sampling and prepaid semantic grading are tracked separately",
+    "checkpoints": 25,
+    "command": "evaluate",
+    "config": "gpt-id.json",
+    "draws_per_question": 1,
+    "family": "GPT",
+    "grade_workers": 64,
+    "maximum_model_requests": 20000,
+    "modes": [
+      "TWO_STAGE_ON"
+    ],
+    "output_directory": "results/live/gpt-id",
+    "panel": "id",
+    "provider_calls": 0,
+    "questions": 400,
+    "sample_workers": 64,
+    "semantic_grading": true
+  },
+  {
+    "answer_slots": 138900,
+    "budget_note": "Tinker sampling and prepaid semantic grading are tracked separately",
+    "checkpoints": 25,
+    "command": "evaluate",
+    "config": "gpt-ood.json",
+    "draws_per_question": 3,
+    "family": "GPT",
+    "grade_workers": 64,
+    "maximum_model_requests": 208350,
+    "modes": [
+      "OFF",
+      "TWO_STAGE_ON"
+    ],
+    "output_directory": "results/live/gpt-ood",
+    "panel": "ood",
+    "provider_calls": 0,
+    "questions": 926,
+    "sample_workers": 64,
+    "semantic_grading": true
+  },
+  {
+    "answer_slots": 2100,
+    "budget_note": "Tinker sampling and prepaid semantic grading are tracked separately",
+    "checkpoints": 25,
+    "command": "evaluate",
+    "config": "gpt-policy.json",
+    "draws_per_question": 1,
+    "family": "GPT",
+    "grade_workers": 64,
+    "maximum_model_requests": 4200,
+    "modes": [
+      "TWO_STAGE_ON"
+    ],
+    "output_directory": "results/live/gpt-policy",
+    "panel": "policy",
+    "provider_calls": 0,
+    "questions": 84,
+    "sample_workers": 64,
+    "semantic_grading": true
+  },
+  {
+    "answer_slots": 40800,
+    "budget_note": "Tinker sampling and prepaid semantic grading are tracked separately",
+    "checkpoints": 102,
+    "command": "evaluate",
+    "config": "qwen-id.json",
+    "draws_per_question": 1,
+    "family": "Qwen",
+    "grade_workers": 64,
+    "maximum_model_requests": 81600,
+    "modes": [
+      "TWO_STAGE_ON"
+    ],
+    "output_directory": "results/live/qwen-id",
+    "panel": "id",
+    "provider_calls": 0,
+    "questions": 400,
+    "sample_workers": 64,
+    "semantic_grading": true
+  },
+  {
+    "answer_slots": 566712,
+    "budget_note": "Tinker sampling and prepaid semantic grading are tracked separately",
+    "checkpoints": 102,
+    "command": "evaluate",
+    "config": "qwen-ood.json",
+    "draws_per_question": 3,
+    "family": "Qwen",
+    "grade_workers": 64,
+    "maximum_model_requests": 850068,
+    "modes": [
+      "OFF",
+      "TWO_STAGE_ON"
+    ],
+    "output_directory": "results/live/qwen-ood",
+    "panel": "ood",
+    "provider_calls": 0,
+    "questions": 926,
+    "sample_workers": 64,
+    "semantic_grading": true
+  },
+  {
+    "answer_slots": 8568,
+    "budget_note": "Tinker sampling and prepaid semantic grading are tracked separately",
+    "checkpoints": 102,
+    "command": "evaluate",
+    "config": "qwen-policy.json",
+    "draws_per_question": 1,
+    "family": "Qwen",
+    "grade_workers": 64,
+    "maximum_model_requests": 17136,
+    "modes": [
+      "TWO_STAGE_ON"
+    ],
+    "output_directory": "results/live/qwen-policy",
+    "panel": "policy",
+    "provider_calls": 0,
+    "questions": 84,
+    "sample_workers": 64,
+    "semantic_grading": true
+  }
+]

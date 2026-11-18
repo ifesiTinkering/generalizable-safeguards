@@ -1,0 +1,12 @@
+{
+  "path": "private/raw_references.jsonl.gz",
+  "references": {
+    "id-GPT": 10000,
+    "id-Qwen": 40800,
+    "ood-GPT": 138900,
+    "ood-Qwen": 566101,
+    "policy-GPT": 2100,
+    "policy-Qwen": 8568
+  },
+  "unique_panel_answers": 766469
+}

@@ -1,0 +1,77 @@
+{
+  "source": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/CONSERVATIVE_V2/FIXED15_MATCHED_TABLES.json",
+  "display": "binary minus Jaccard",
+  "scopes": [
+    {
+      "family": "Qwen",
+      "arm": "A",
+      "source": "dynabench",
+      "regime": "OOD",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "family": "Qwen",
+      "arm": "C",
+      "source": "dynabench",
+      "regime": "OOD",
+      "mode": "OFF",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ]
+    },
+    {
+      "family": "GPT",
+      "arm": "A",
+      "source": "dynabench",
+      "regime": "OOD",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "family": "GPT",
+      "arm": "C",
+      "source": "dynabench",
+      "regime": "OOD",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ]
+    }
+  ],
+  "rows": {
+    "Rule F1": "rule_F1",
+    "Precision": "rule_precision",
+    "Recall": "rule_recall",
+    "Jaccard similarity": "Jaccard_IoU",
+    "Exact rule-set accuracy": "exact_set_accuracy",
+    "Parseable answers": "parseability",
+    "Mean confidence": "confidence_mean",
+    "Confidence standard deviation": "confidence_SD",
+    "ECE $\\downarrow$ (lower is better)": "IoU_ECE10",
+    "Error detection: AUROC": "exact_error_AUROC",
+    "Error detection: average precision": "exact_error_AP",
+    "F1 loss under selection: AURC": "F1_AURC",
+    "F1 loss found by 20\\% review": "F1_loss_capture_review20",
+    "Confidence--F1 rank correlation": "confidence_F1_Spearman",
+    "Rules with nonzero evidence score (percentage points)": "supported_predicted_fraction"
+  }
+}

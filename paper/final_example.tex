@@ -1,0 +1,6 @@
+\par\smallskip\reportfigure{fig:calibration-example}{Saved rule predictions and confidence for SFT, A and B.} The models answer the question in Figure~\ref{fig:saved-output}. Content moderation is an out-of-distribution domain in \DB{}. Rule 1 is correct. Cells show extracted rules and confidence with thinking on. Jaccard \armA{}/\armB{} use seed 2. GPT-OSS-120B SFT was already correct.
+\par{\fontsize{8.5}{9.6}\selectfont\setlength{\tabcolsep}{4pt}\begin{tabularx}{\linewidth}{@{}Xlll@{}}\toprule
+Model & SFT & \armA{}: correctness & \armB{}: calibration\\\midrule
+\rowcolor{blue!4}Qwen3.5-9B & No rules; .90 & No rules; .90 & \cellcolor{teal!12}No rules; .60\\
+\rowcolor{orange!6}GPT-OSS-120B & Rule 1; .87 & No rules; .96 & \cellcolor{teal!12}Rule 1; .93\\\bottomrule
+\end{tabularx}}\par

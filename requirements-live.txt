@@ -1,0 +1,9 @@
+# Versions observed in the study's Python 3.13 environment.
+# Installing dependencies does not launch any provider operation.
+tinker==0.34.0
+tinker-cookbook==0.5.7
+httpx==0.28.1
+transformers==5.5.4
+tokenizers==0.22.2
+numpy==2.5.4
+pyarrow==26.0.0

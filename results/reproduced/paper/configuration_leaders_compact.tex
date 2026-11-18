@@ -1,0 +1,9 @@
+{\fontsize{8.5}{9.3}\selectfont\setlength{\tabcolsep}{3pt}
+\reporttable{tab:configuration-leaders}{Highest mean F1 by evaluation setting.} These rankings are descriptive.
+\par\begin{tabularx}{\linewidth}{@{}X>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{orange!6}}r>{\columncolor{orange!6}}r@{}}\toprule
+& \multicolumn{2}{c}{Qwen3.5-9B} & \multicolumn{2}{c}{GPT-OSS-120B}\\
+Setting & \SPhead & \DBhead & \SPhead & \DBhead\\\midrule
+Out-of-distribution domains; thinking on & Binary \armA{} & F1 \armA{} & Jaccard \armB{} & Jaccard \armB{}\\
+Out-of-distribution domains; thinking off & Jaccard \armB{} & Binary \armA{} & Jaccard \armB{} & Binary \armB{}\\
+In-distribution domains; thinking on & Jaccard \armB{} & F1 \armD{} & Jaccard \armB{} & Binary \armB{}\\\bottomrule
+\end{tabularx}}

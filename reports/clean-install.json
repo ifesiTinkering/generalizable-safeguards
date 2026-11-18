@@ -1,0 +1,28 @@
+{
+  "environment": "Isolated Python 3.12.14 virtual environment",
+  "inference_parity": {
+    "checks": 11160,
+    "differences": [],
+    "provider_calls": 0
+  },
+  "provider_calls": 0,
+  "source": "Fresh Git clone of the review package",
+  "statistical_recalculation": "All four README commands completed",
+  "table_reproduction": "Passed; three Markdown claim pages, HTML, complete CSVs",
+  "tests_failed": 0,
+  "tests_passed": 34,
+  "verification": {
+    "cell_metric_checks": 24384,
+    "checkpoint_count": 127,
+    "checkpoint_selection_replays": 101,
+    "comparison_point_checks": 1416,
+    "frozen_analysis_inputs": 29,
+    "frozen_scientific_files": 38,
+    "in_domain_and_policy_metric_checks": 8656,
+    "max_absolute_error": 7.716050021144838e-15,
+    "paper_pdf_sha256": "02b1f331b649907140093f314eb607dc061c3d3cbf4de580068a3cb1ec2dcd38",
+    "provider_calls": 0,
+    "scored_observations": 767080
+  },
+  "working_directory": "Outside the checkout"
+}

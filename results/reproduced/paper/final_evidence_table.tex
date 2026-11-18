@@ -1,0 +1,24 @@
+{\fontsize{8.5}{9.7}\selectfont\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\linewidth}{@{}X>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{blue!4}}r>{\columncolor{orange!6}}r>{\columncolor{orange!6}}r>{\columncolor{orange!6}}r>{\columncolor{orange!6}}r@{}}\toprule
+ & \multicolumn{2}{c}{\shortstack{Qwen3.5-9B\\Binary}} & \multicolumn{2}{c}{\shortstack{Qwen3.5-9B\\Jaccard}} & \multicolumn{2}{c}{\shortstack{GPT-OSS-120B\\Binary}} & \multicolumn{2}{c}{\shortstack{GPT-OSS-120B\\Jaccard}}\\
+Metric & \armD{} $-$ \armB{} & $p$ & \armD{} $-$ \armB{} & $p$ & \armD{} $-$ \armB{} & $p$ & \armD{} $-$ \armB{} & $p$\\\midrule
+\rowcolor{teal!9}\multicolumn{9}{@{}l}{\textbf{Correctness}}\\
+Rule F1 & +0.007 & 0.528 & +0.001 & 1.000 & \textbf{+0.011} & 0.043 & -0.008 & 0.447\\
+Precision & +0.012 & \textemdash & +0.009 & \textemdash & +0.005 & \textemdash & +0.005 & \textemdash\\
+Recall & +0.001 & \textemdash & -0.005 & \textemdash & +0.013 & \textemdash & -0.019 & \textemdash\\
+Jaccard similarity & +0.007 & \textemdash & -0.001 & \textemdash & +0.010 & \textemdash & -0.007 & \textemdash\\
+Exact rule-set accuracy & +0.004 & \textemdash & -0.007 & \textemdash & +0.001 & \textemdash & +0.004 & \textemdash\\
+Parseable answers & -0.007 & \textemdash & +0.009 & \textemdash & -0.005 & \textemdash & -0.005 & \textemdash\\
+\rowcolor{teal!9}\multicolumn{9}{@{}l}{\textbf{Confidence scores and calibration}}\\
+Mean confidence & -0.045 & \textemdash & -0.007 & \textemdash & +0.163 & \textemdash & +0.012 & \textemdash\\
+Confidence standard deviation & -0.022 & \textemdash & -0.000 & \textemdash & -0.042 & \textemdash & -0.007 & \textemdash\\
+ECE $\downarrow$ (lower is better) & \textbf{-0.035} & 0.005 & +0.003 & 1.000 & \textbf{+0.125} & 0.005 & \textbf{+0.016} & 0.009\\
+\rowcolor{teal!9}\multicolumn{9}{@{}l}{\textbf{Confidence usefulness}}\\
+Error detection: AUROC & -0.020 & 0.593 & +0.004 & 1.000 & -0.025 & 1.000 & -0.003 & 1.000\\
+Error detection: average precision & -0.018 & \textemdash & +0.007 & \textemdash & -0.012 & \textemdash & -0.003 & \textemdash\\
+F1 loss under selection: AURC & -0.009 & 0.166 & \textbf{+0.007} & 0.043 & -0.004 & 1.000 & +0.011 & 0.508\\
+F1 loss found by 20\% review & -0.013 & 0.224 & \textbf{-0.015} & 0.029 & +0.001 & 1.000 & -0.003 & 1.000\\
+Confidence--F1 rank correlation & -0.030 & 0.593 & -0.020 & 0.487 & -0.022 & 1.000 & -0.024 & 0.939\\
+\rowcolor{violet!14}\multicolumn{9}{@{}l}{\textbf{Evidence support: higher means more predicted rules have supporting evidence}}\\
+\rowcolor{violet!9}Supported rules (percentage points) & \textbf{$\geq +14.5$} & $\leq 0.0042$ & \textbf{$\geq +3.9$} & $\leq 0.0042$ & \textbf{+2.9} & $\leq 0.0042$ & \textbf{+2.3} & $\leq 0.0042$\\
+\bottomrule\end{tabularx}}

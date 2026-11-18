@@ -1,0 +1,49 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,booktabs,tabularx,array,graphicx,enumitem,fancyhdr,hyperref}
+\usepackage[table]{xcolor}
+\definecolor{ink}{HTML}{183247}
+\definecolor{teal}{HTML}{067A84}
+\definecolor{muted}{HTML}{52616D}
+\hypersetup{colorlinks=true,urlcolor=teal,linkcolor=teal}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.35em}
+\setlength{\emergencystretch}{3em}
+\setlength{\aboverulesep}{1pt}\setlength{\belowrulesep}{1pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.25em,topsep=0.25em}
+\setlist[itemize,2]{leftmargin=1.3em,itemsep=0.12em,topsep=0.12em}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{muted}Calibration rewards: generalization, confidence and evidence}\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\setlength{\headheight}{14pt}
+\setlength{\headsep}{12pt}
+\newcommand{\pp}{\,pp}
+\newcommand{\SP}{SafePyramid (in-distribution dataset)}
+\newcommand{\DB}{DynaBench (out-of-distribution dataset)}
+\newcommand{\SPhead}{\shortstack{SafePyramid\\in-distribution\\dataset}}
+\newcommand{\DBhead}{\shortstack{DynaBench\\out-of-distribution\\dataset}}
+\definecolor{armAcolor}{HTML}{946000}
+\definecolor{armBcolor}{HTML}{067A84}
+\definecolor{armCcolor}{HTML}{365EA0}
+\definecolor{armDcolor}{HTML}{7D4388}
+\newcommand{\armA}{\textcolor{armAcolor}{\textbf{A}}}
+\newcommand{\armB}{\textcolor{armBcolor}{\textbf{B}}}
+\newcommand{\armC}{\textcolor{armCcolor}{\textbf{C}}}
+\newcommand{\armD}{\textcolor{armDcolor}{\textbf{D}}}
+
+\newcommand{\claimheading}[2]{\subsection*{Claim #1. #2}\reportanchor{sec:claim-#1}{Claim #1: #2}}
+\newcommand{\statusbox}[1]{\begin{quote}\color{teal}\textbf{Study status.} #1\end{quote}}
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{0pt}{-1.8ex plus -.4ex minus -.2ex}{.8ex plus .2ex}{\normalfont\Large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{0pt}{-1.5ex plus -.3ex minus -.2ex}{.7ex plus .2ex}{\normalfont\large\bfseries}}
+\newcommand{\reporttable}[2]{\refstepcounter{table}\def\@currentlabelname{#2}\label{#1}\textbf{Table~\thetable. #2}}
+\newcommand{\reportfigure}[2]{\refstepcounter{figure}\def\@currentlabelname{#2}\label{#1}\textbf{Figure~\thefigure. #2}}
+\newcommand{\reportanchor}[2]{\phantomsection\def\@currentlabelname{#2}\label{#1}}
+\makeatother
+\begin{document}
+\input{page1_setup}
+\clearpage\input{page2_calibration}
+\clearpage\input{page4_in_domain}
+\clearpage\input{page5_evidence}
+\clearpage\input{page6_correctness}
+\end{document}

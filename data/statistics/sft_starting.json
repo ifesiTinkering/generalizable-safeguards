@@ -1,0 +1,127 @@
+{
+  "interpretation": "Starting-checkpoint performance measured retrospectively on the common evaluation panel; this panel did not select the SFT checkpoints.",
+  "observed_unix": 1794930387.46381,
+  "original_selection_test": false,
+  "provider_calls": 0,
+  "rows": [
+    {
+      "SFT_checkpoint_count": 1,
+      "draws": [
+        0,
+        1,
+        2
+      ],
+      "family": "Qwen",
+      "metrics": {
+        "parseability": 0.871225215114104,
+        "rule_F1": 0.5164294950531647,
+        "rule_precision": 0.49183301012489095,
+        "rule_recall": 0.5679497391611591
+      },
+      "mode": "OFF",
+      "responses": 2778,
+      "sampler": "checkpoint-sha256:ae40c8973507d0c727ecf0a1e5813ce231e4aaefdf7af901f4882b95db383cf9",
+      "source_domain_cells": [
+        "safepyramid:content_moderation",
+        "safepyramid:intellectual_property",
+        "safepyramid:specialized_advice",
+        "dynabench:specialized_advice",
+        "dynabench:content_moderation",
+        "dynabench:intellectual_property"
+      ],
+      "unique_row_views": 926,
+      "valid_responses": 2368
+    },
+    {
+      "SFT_checkpoint_count": 1,
+      "draws": [
+        0,
+        1,
+        2
+      ],
+      "family": "Qwen",
+      "metrics": {
+        "parseability": 0.8687401795735129,
+        "rule_F1": 0.6616363070628652,
+        "rule_precision": 0.6701775890082105,
+        "rule_recall": 0.6669454279716626
+      },
+      "mode": "TWO_STAGE_ON",
+      "responses": 2778,
+      "sampler": "checkpoint-sha256:ae40c8973507d0c727ecf0a1e5813ce231e4aaefdf7af901f4882b95db383cf9",
+      "source_domain_cells": [
+        "safepyramid:content_moderation",
+        "safepyramid:intellectual_property",
+        "safepyramid:specialized_advice",
+        "dynabench:specialized_advice",
+        "dynabench:content_moderation",
+        "dynabench:intellectual_property"
+      ],
+      "unique_row_views": 926,
+      "valid_responses": 2478
+    },
+    {
+      "SFT_checkpoint_count": 1,
+      "draws": [
+        0,
+        1,
+        2
+      ],
+      "family": "GPT",
+      "metrics": {
+        "parseability": 0.8988224841002619,
+        "rule_F1": 0.3552956521441483,
+        "rule_precision": 0.38423427536223126,
+        "rule_recall": 0.3607350733971105
+      },
+      "mode": "OFF",
+      "responses": 2778,
+      "sampler": "checkpoint-sha256:6f727742b6aee418d83ab5fa3b43bc3d0d2c2f63759aeb32382f71cdfa4df035",
+      "source_domain_cells": [
+        "safepyramid:content_moderation",
+        "safepyramid:intellectual_property",
+        "safepyramid:specialized_advice",
+        "dynabench:content_moderation",
+        "dynabench:intellectual_property",
+        "dynabench:specialized_advice"
+      ],
+      "unique_row_views": 926,
+      "valid_responses": 2467
+    },
+    {
+      "SFT_checkpoint_count": 1,
+      "draws": [
+        0,
+        1,
+        2
+      ],
+      "family": "GPT",
+      "metrics": {
+        "parseability": 0.9682547699214366,
+        "rule_F1": 0.6739787684481336,
+        "rule_precision": 0.713064864869719,
+        "rule_recall": 0.6598548165369154
+      },
+      "mode": "TWO_STAGE_ON",
+      "responses": 2778,
+      "sampler": "checkpoint-sha256:6f727742b6aee418d83ab5fa3b43bc3d0d2c2f63759aeb32382f71cdfa4df035",
+      "source_domain_cells": [
+        "safepyramid:content_moderation",
+        "safepyramid:intellectual_property",
+        "safepyramid:specialized_advice",
+        "dynabench:content_moderation",
+        "dynabench:intellectual_property",
+        "dynabench:specialized_advice"
+      ],
+      "unique_row_views": 926,
+      "valid_responses": 2688
+    }
+  ],
+  "schema": "retrospective-SFT-common926-equal-six-cell-summary-v1",
+  "scope": "Same926 retained OOD row views, three answers per row, OFF and native two-stage ON. Content moderation, specialized advice, intellectual property, each from SafePyramid and DynaBench.",
+  "source_bindings": {
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/sft_starting_performance_v1/COMMON926_SFT_STARTING_PERFORMANCE.json": "06db98a81258382bf3644ecdd75384ae7b2ae19417b534c916742e7c01bd85d7",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/sft_starting_performance_v1/build_four_row.py": "4ecf86db4bbd5090b03149e604590bcc7212a89531d091655a0ca825a595f222"
+  },
+  "weighting": "Compute each metric within each of six dataset/domain cells across three draws; average the six cell metrics equally. Invalid responses score zero for F1/precision/recall and count as parse failures. One fixed SFT checkpoint per model, no seed replication."
+}

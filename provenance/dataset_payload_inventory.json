@@ -1,0 +1,46 @@
+{
+  "panels": {
+    "id": {
+      "path": "private/rows-id.json.gz",
+      "rows": 400,
+      "sha256": "07a8d0e6995e70fb96b5c5c8550ef3ae2c88a58c7f278f4ae668f5427811c9ff"
+    },
+    "ood": {
+      "path": "private/rows-ood.json.gz",
+      "rows": 926,
+      "sha256": "0f011fb183c6c37183060f54c431794c81f93746ea811f64881a144304bdc350"
+    },
+    "policy": {
+      "path": "private/rows-policy.json.gz",
+      "rows": 84,
+      "sha256": "cd06b663bbfa0c8e48560cb4e696968ea06559292e4acc66ef5b076bf09c13f2"
+    }
+  },
+  "provider_calls": 0,
+  "rendered_input_conflicts": [],
+  "training": {
+    "sft": {
+      "original_parquet_sha256": "56b642b67d7c8c23fef0965ea309618797a90c93815aa1c4f52faf76c718ec24",
+      "path": "private/training/sft.json",
+      "rows": 100,
+      "sha256": "1f79ccfbe622fcefc9c306619c5f6fd59cc101ede5ec50b1d916cd003279d3fe"
+    },
+    "supplement": {
+      "path": "private/training/supplement.json",
+      "rows": 1210,
+      "sha256": "a66ac578092bb07088677698a692035c39c8b8a30300bd600c66bd723b34b11c"
+    },
+    "train": {
+      "original_parquet_sha256": "ea715bbb2ec502b2aef4f22f950911ab7a86ffda66131b1193f33db1d3292275",
+      "path": "private/training/train.json",
+      "rows": 420,
+      "sha256": "87c22ea4ccc4eabf3932adefb69fb77640262c8b3b464daa938c4d5c813867e1"
+    },
+    "validation": {
+      "original_parquet_sha256": "459d267f4c1c583724444a455e02b171b4d0e6df03deef7e02934faaa281bdec",
+      "path": "private/training/validation.json",
+      "rows": 90,
+      "sha256": "49e8a0d3414b528bd97147bace663415831f02aa60ad3feae9f337bfe52e9778"
+    }
+  }
+}

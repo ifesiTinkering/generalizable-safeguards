@@ -1,0 +1,19 @@
+\begingroup\fontsize{9.3}{9.7}\selectfont\setlength{\parskip}{0.06em}\setlist[itemize]{itemsep=0.08em,topsep=0.08em}
+{\LARGE\bfseries\color{ink}Effects of calibration rewards on generalization}\par
+{\small\color{muted}Qwen3.5-9B and GPT-OSS-120B}\par
+\section*{1. Experimental setup}\reportanchor{sec:setup}{Experimental setup}
+\textbf{Task.} Each question pairs a conversation with a policy. Positive rows violate rules; negative rows violate none. Supervised fine-tuning (SFT) initializes both models. The output format in Figure~\ref{fig:saved-output} adapts the tagged format in \href{https://arxiv.org/html/2507.16806v1#A2.SS2}{Damani et al., Beyond Binary Rewards}, adding per-rule evidence.
+\input{literal_model_output}
+\par\vspace{1pt}\input{training_rows_table}
+\par\vspace{1pt}\input{sft_starting_performance_compact}
+{\fontsize{8.5}{9.5}\selectfont Both SFT checkpoints answer 926 held-out rows three times per thinking mode, with equal domain weights. Parseability measures format compliance. Adapter ranks: Qwen3.5-9B uses 64; GPT-OSS-120B uses 32.}\par
+\begin{itemize}
+\item \textbf{Training data (Table~\ref{tab:training-rows}).} \SP{} negatives are constructed. The SFT rows cover 21 conversations under in-distribution defamation policies. PolicyTraj was added during Qwen3.5-9B training and was available from launch for GPT-OSS-120B.
+\item \textbf{Training uses thinking off.} Tinker samples and optimizes; RunPod hosts controllers and graders. Each batch has three prompts with ten answers each, temperature 1 and context length 65,536 tokens. Group-mean reward differences weight answer tokens; constant-reward groups provide no update. Adam uses learning rate $10^{-5}$, $\beta=(.9,.95)$ and $\epsilon=10^{-8}$.
+\item \textbf{Training allows up to 155 successful updates.} Every ten updates, 90 validation rows score correctness, confidence accuracy and evidence support. Training stops if two components gain less than .03 from the oldest of five checks to the best of the other four. Their mean selects Qwen3.5-9B checkpoints within updates 100--155. GPT-OSS-120B \armA{}/\armB{}/\armD{} stops span updates 40--131. Evaluated \armC{} checkpoints span updates 41--69; paused runs use 69 and 62.
+\end{itemize}
+\input{reward_settings_table}\par
+{\small $R_{\rm correct}$ is binary exact-set correctness, F1 or Jaccard. GPT-OSS-120B uses binary and Jaccard. $c$ is confidence. Malformed answers score $-.6$; empty predictions earn zero evidence credit. Qwen3.5-9B seeds are 0, 1, \textbf{2}, 3, \textbf{4}, \textbf{5}, 7, 36 and 42. \textbf{Subset:} GPT-OSS-120B uses \textbf{2, 4 and 5} for an initial replication.}
+\par\textbf{Sampling.} Thinking on allows 10,000 reasoning tokens, then 23,000 answer tokens. Thinking off uses the answer stage directly. Temperature is 1. Evidence uses the training support prompt with gpt-6-astra and gpt-6-luna as fallback.
+\par\reporttable{tab:evaluation-panel}{Evaluation for Claims 1--3.} We evaluate 101 trained Qwen3.5-9B checkpoints, 24 trained GPT-OSS-120B checkpoints and their SFT baselines. \par\input{evaluation_setup_table}\par
+\endgroup

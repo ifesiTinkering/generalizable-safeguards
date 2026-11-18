@@ -1,0 +1,44 @@
+[
+  {
+    "difference_error": 1.734723475976807e-18,
+    "interval_error": 3.469446951953614e-18,
+    "metric": "rule_F1",
+    "p": 0.0195,
+    "reference_p": 0.0195
+  },
+  {
+    "difference_error": 1.3877787807814457e-17,
+    "interval_error": 3.469446951953614e-17,
+    "metric": "IoU_ECE10",
+    "p": 0.0005,
+    "reference_p": 0.0005
+  },
+  {
+    "difference_error": 6.938893903907228e-18,
+    "interval_error": 1.3877787807814457e-17,
+    "metric": "exact_error_AUROC",
+    "p": 0.0845,
+    "reference_p": 0.0845
+  },
+  {
+    "difference_error": 4.5102810375396984e-17,
+    "interval_error": 4.163336342344337e-17,
+    "metric": "F1_AURC",
+    "p": 0.003,
+    "reference_p": 0.003
+  },
+  {
+    "difference_error": 1.9081958235744878e-17,
+    "interval_error": 6.071532165918825e-18,
+    "metric": "F1_loss_capture_review20",
+    "p": 0.159,
+    "reference_p": 0.159
+  },
+  {
+    "difference_error": 0.0,
+    "interval_error": 3.469446951953614e-18,
+    "metric": "confidence_F1_Spearman",
+    "p": 0.0285,
+    "reference_p": 0.0285
+  }
+]

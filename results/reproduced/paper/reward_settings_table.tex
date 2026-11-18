@@ -1,0 +1,8 @@
+\par\reporttable{tab:reward-settings}{Reward settings.}\par\begingroup\small\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{@{}l l X@{}}\toprule
+Arm & Reward for a valid answer & What the reward measures\\\midrule
+\armA{} & $R_{\rm correct}$ & It rewards rule correctness.\\
+\armB{} & $R_{\rm correct}-.5(c-R_{\rm correct})^2$ & It adds a penalty for confidence error.\\
+\armC{} & $.5R_{\rm correct}+.5E_{\rm all}-.5(c-R_{\rm correct})^2$ & Every predicted rule must have supported evidence.\\
+\armD{} & $.5R_{\rm correct}+.5E_{\rm fraction}-.5(c-R_{\rm correct})^2$ & Each supported rule earns evidence credit.\\\bottomrule
+\end{tabularx}\endgroup

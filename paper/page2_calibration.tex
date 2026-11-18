@@ -1,0 +1,23 @@
+\begingroup\fontsize{9}{10}\selectfont\setlength{\parskip}{0.10em}\setlist[itemize]{itemsep=0.12em,topsep=0.12em}
+\section*{2. Main findings}\reportanchor{sec:main-findings}{Main findings}
+\claimheading{1}{Calibration can improve confidence accuracy in Qwen3.5-9B and GPT-OSS-120B on out-of-distribution domains in \SP{} and \DB{}, and on in-distribution domains in \SP{}.}
+\par\smallskip\textbf{Main findings.}
+\begin{itemize}
+\item \textbf{1.1. Jaccard calibration improves confidence accuracy on out-of-distribution domains in \SP{} and \DB{}, with thinking on and off.}
+\begin{itemize}
+\item \underline{Confidence accuracy improves.} Adding calibration changes \armA{} to \armB{}. Expected calibration error (ECE) measures the gap between confidence and Jaccard correctness. Lower ECE is better. Each model, dataset and thinking mode passes the adjusted test ($p=0.0038$).
+\item For example, with thinking on, Qwen3.5-9B's \SP{} ECE improves from .193 to .113. GPT-OSS-120B's improves from .356 to .285 (Table~\ref{tab:ood-calibration}). Tests average the out-of-distribution domains in Table~\ref{tab:evaluation-panel}. Figure~\ref{fig:calibration-example} shows an example from saved answers.
+\item The improvement also holds on in-distribution domains in \SP{} with thinking on ($p=0.020$ per model; Table~\ref{tab:in-distribution-domain-calibration}).
+\end{itemize}
+\item \textbf{1.2. Binary calibration improves confidence accuracy on out-of-distribution domains in \SP{} and \DB{} with thinking on.}
+\begin{itemize}
+\item For Qwen3.5-9B, ECE improves by .047 on \SP{} and .026 on \DB{}. For GPT-OSS-120B, the improvements are .292 and .083 ($p=0.0038$ each).
+\item With thinking off, binary results depend on the dataset. The \hyperref[sec:calibration-ablations]{Calibration ablation findings} give the accuracy trade-off.
+\end{itemize}
+\end{itemize}
+\reporttable{tab:ood-calibration}{Adding calibration to Jaccard rewards, with thinking on.} Arrows show \armA{} followed by \armB{}. Bold changes pass adjusted $p<.05$; dashes mark descriptive metrics. Rows cover 826 distinct conversations. Domains receive equal weight. Seeds are shared within each model: nine for Qwen3.5-9B and three for GPT-OSS-120B.
+\par\smallskip\input{final_calibration_table}\par\smallskip
+\reporttable{tab:ood-sft-control}{SFT to calibrated Jaccard training, with thinking on.} On the same rows, ECE and F1 selection loss improve in each model on each dataset. This comparison includes reinforcement learning and calibration.
+\par\input{sft_control_compact}\par
+{\fontsize{8.5}{9.5}\selectfont\textbf{Confidence metrics.} AUROC and average precision measure error-detection ranking. Spearman ranks confidence against F1. AURC measures F1 loss under confidence-based selection; lower is better. Review capture measures loss found in the lowest-confidence 20\%.}\par
+\endgroup

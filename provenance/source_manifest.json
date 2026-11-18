@@ -1,0 +1,240 @@
+{
+  "schema": "public-source-provenance-v1",
+  "files": [
+    {
+      "path": "study/vendor/shared/astra_contract.py",
+      "sha256": "78291d3a155ff4f62f87009edde986f2b1012296b6f87c00b5468513b97ee891",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/astra_judge.py",
+      "sha256": "a2a09d888ab15cd1b5585c09613ef117822899ae3c72b86ff720de549485c350",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/async_validation_engine.py",
+      "sha256": "78bf97282e70459e044aa2b10c784be67f2429652f9136b61d194d035a126927",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/cohort_budget.py",
+      "sha256": "089b54fa3a38398f65e501dd1cdef5621f3256a1d61cc8da19a92f063596e36f",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/data/appended_queue.py",
+      "sha256": "1e7a3059937ae7fe804a6d40249dd6f62e39233d1a220f70ef91554825606e67",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/data/data_recipe.py",
+      "sha256": "ddfdbe0fa0fe584c640709d242bd871b5e8a24c7e422bc5b74bf6561d92f3549",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/data/deterministic_queue.py",
+      "sha256": "c9404871986e16d1f48d2c830f1de3e0a8f6954e81968052fac65a849dea1878",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/evidence_budget.py",
+      "sha256": "dc4005bdc18cee26fb7980f63ae6f2ff9fd3606d1b9b6f4eaa0a57f0e98a7d9e",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/evidence_engine.py",
+      "sha256": "ca987fc4e81db7dc1a5896db04a2dfca307158fc88aef3fbaf9766ad7c260926",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/evidence_judge_fallback.py",
+      "sha256": "66b06a9d8fd38458b156b6175fb32ff0fb5377c483fa29438b63ada0ddfd0f19",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/format_contract_v2.py",
+      "sha256": "e40f990d33f0ded4d0d0cb2787ce78892dc14703648d28bfda9c756510acbce7",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/judge_factory.py",
+      "sha256": "b2f7ed88e52ef78d4fecba4ef12bb6fd91ff2d60d9db2449d0effd137d4876d2",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/judge_provider_adapter.py",
+      "sha256": "95f568371e521d36e4307fe52d3b78d12d68feb158746c5784c0664084a4cb6c",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/live_backend.py",
+      "sha256": "12cec41ec422de8c76309e14e2a156891fb1e5aff100ad1463145c1328d36c4b",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/milestone_pins.py",
+      "sha256": "471cbc8e671d3331c02f4c0ac9107cfa258afef56bdb51ce2c102d6339e58f38",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/objective_prompts.py",
+      "sha256": "4bb366c44aa4aa539074cb383233507262fddc9b8d99de9f0e16361b514c2f3b",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/prompts.py",
+      "sha256": "8d0523033ae32e6384450768be3553bc26732a50a1b8cf54d0357e09a54042cd",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/protocol.py",
+      "sha256": "8162024ea4d81c1b738b4b8deadf5249711c3b7b353ab3382b1724c4634575c8",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/reward.py",
+      "sha256": "83d5ec207af622387185e971f3ea5feda3c774c6233653b934c2ec27a21f2b56",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/reward_pipeline.py",
+      "sha256": "6ab034b6ef234153f09f5bf5a9e6df3d00964dce02cbc1d9fbc0008b5f9f8ee6",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/science_stop.py",
+      "sha256": "3a259eef52afee4a0fbc889719edd1a7b79bc57da7919b6921f02d3fc754f502",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/student_attempts.py",
+      "sha256": "3be6f583ad1efc01bf9ba60620629ae20aa2cd5da7aa5316088ebc5bd6dc0fef",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/update.py",
+      "sha256": "d7149dde820849b7df1ba7560eb15302b44a114874d4414e2fc07c98d5bee31a",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/validation_aurc.py",
+      "sha256": "8011b09d3348945508898446ff19608073d310f57c97b6d53e7ee3a71fef8138",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/validation_manager.py",
+      "sha256": "6b7e0fff3c69e56bed661b45942664675349417fcc656f9d1620c67ab03c02c1",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/validation_metric_adapter.py",
+      "sha256": "8da1e7226143efa453f9b34d4a2985b60fad1a104bb2ca50a67cff7ce089e52a",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/validation_metric_matrix.py",
+      "sha256": "8cec28065c2021e36138b145c0c6d557546e1de33980186d05fc45a24bdaecd0",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/validation_metric_registry.py",
+      "sha256": "5c5440d080c6e7647d665c3b5e619ea118a729ff33ac8f6fb5ef0f06aafb7ae3",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/validation_metrics_extension.py",
+      "sha256": "4caf5198ded993e70a16b4c16a89c0ddbc8ed652e213f95eecad424f59c6c268",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/shared/validation_protocol.py",
+      "sha256": "c1c9a3259abde3e2fa312596dd6e0ebb737e0bf212815b2767b9bea1821fe704",
+      "origin": "Qwen scientific snapshot",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/gpt/evidence_judge_fallback.py",
+      "sha256": "682a36fdc73537352cc152e9149599f64343f8db609876fb4e035a8489037078",
+      "origin": "GPT reviewed semantic transport variant",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/gpt/judge_provider_adapter.py",
+      "sha256": "c0be81840c6630795cb01889d4edf1122c7507640000d6fe7b24d92886e22426",
+      "origin": "GPT reviewed semantic transport variant",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/operations/branch_namespace.py",
+      "sha256": "b97b309d8ac80324e43773361958b32620752e44bf4a0093055aa7f53e9cfb00",
+      "origin": "Shared reviewed recovery and stop helper",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/operations/sampler_lifecycle.py",
+      "sha256": "0c3427335b828304243c42cf97c6c0f91d46cafa75319e3c1be307231269e81c",
+      "origin": "Shared reviewed recovery and stop helper",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/operations/safe_admission.py",
+      "sha256": "b944a1ec0b621f5cd28bd41ccf33bc0fe5918d879f53b7823c1fa5bd74daaef1",
+      "origin": "Shared reviewed recovery and stop helper",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/operations/zero_gradient_cursor.py",
+      "sha256": "674ec3b2f2576ea073497013892bec665f823707e6172d2628aec22414ffd6ed",
+      "origin": "Shared reviewed recovery and stop helper",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/operations/selection_majority_stop.py",
+      "sha256": "d008830e0509c423dbbd6dfc806f1cd9e3b6b07bb95f0f10a7112be3e9c0bdfa",
+      "origin": "Shared reviewed recovery and stop helper",
+      "byte_identical": true
+    },
+    {
+      "path": "study/vendor/gpt/gpt_modes.py",
+      "sha256": "1cb8e92ad00166e50055578e7a9ac7872bf93722795bf27f4066044187ef4973",
+      "origin": "Native GPT framing",
+      "byte_identical": true
+    }
+  ],
+  "scientific_update_reference": {
+    "repository": "thinking-machines-lab/tinker-cookbook",
+    "revision": "8486b8df2fc32e9713cf96dd5f75d43c7ef70a17",
+    "path": "tutorials/104_first_rl.py",
+    "lines": "274-305"
+  },
+  "private_operational_artifacts_included": false
+}

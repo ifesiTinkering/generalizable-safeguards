@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generalizable-safeguards"
+version = "0.1.0"
+description = "Reproduce GRPO reward-design results for calibrated policy safeguards"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx==0.28.1"]
+reports = ["pypdf>=5", "reportlab>=4,<5"]
+live = ["tinker==0.34.0", "tinker-cookbook==0.5.7", "httpx==0.28.1", "transformers==5.5.4", "tokenizers==0.22.2"]
+
+[project.scripts]
+safeguards = "guardstudy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["guardstudy*", "study*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["study/vendor", "guardstudy/vendor", "guardstudy/native", "provenance"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

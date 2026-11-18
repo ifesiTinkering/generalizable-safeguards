@@ -1,0 +1,3027 @@
+{
+  "definition": "Equal-domain/seed mean of per-answer supported-rule fractions. Empty predicted sets score0. Unavailable semantic grades remain unknown in [0,1], never imputed as observed zero. No new tests.",
+  "results": [
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.404611191277858,
+          0.4115556357223024
+        ],
+        "point": null,
+        "records": 720,
+        "unavailable": 5
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        -0.020397588522588495,
+        -0.006508699633699655
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.3911580471997139,
+          0.39810249164415834
+        ],
+        "point": null,
+        "records": 720,
+        "unavailable": 5
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.015489572506617958,
+          0.01851987553692099
+        ],
+        "point": null,
+        "records": 3936,
+        "unavailable": 12
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.10231167232310202,
+        0.10685712686855657
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.12083154786002301,
+          0.12234669937517453
+        ],
+        "point": null,
+        "records": 3936,
+        "unavailable": 6
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.4097448282949125,
+          0.4145428080928923
+        ],
+        "point": null,
+        "records": 3936,
+        "unavailable": 19
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        -0.006208921303006376,
+        0.001114311020225911
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.4083338867898859,
+          0.4108591393151384
+        ],
+        "point": null,
+        "records": 3936,
+        "unavailable": 10
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.2914351851851852,
+          0.2914351851851852
+        ],
+        "point": 0.2914351851851852,
+        "records": 880,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.022762345679012363,
+      "difference_bounds": [
+        0.022762345679012363,
+        0.022762345679012363
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.31419753086419755,
+          0.31419753086419755
+        ],
+        "point": 0.31419753086419755,
+        "records": 880,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.019347783389450056,
+          0.019764450056116722
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 3
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.027686092071508742,
+        0.02921386984928652
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.047450542127625464,
+          0.048561653238736575
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 8
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.24710009820426487,
+          0.24848898709315376
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 10
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.03074179292929291,
+        0.03365845959595959
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.27923078002244667,
+          0.28075855780022446
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 11
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.3445821578113245,
+          0.3508321578113245
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 9
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        0.08383900101577796,
+        0.09772788990466685
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.43467115882710244,
+          0.44231004771599136
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 11
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.05427973553613635,
+          0.056678725435126254
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 19
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.10593695099926045,
+        0.11174503180734124
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.1626156764343867,
+          0.1660247673434776
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 27
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.3608186746419358,
+          0.3652378665611277
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 35
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.061606881100262634,
+        0.07095031544369701
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.42684474766139036,
+          0.4317689900856328
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 39
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.2924382716049383,
+          0.2924382716049383
+        ],
+        "point": 0.2924382716049383,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.02110339506172837,
+      "difference_bounds": [
+        0.02110339506172837,
+        0.02110339506172837
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.31354166666666666,
+          0.31354166666666666
+        ],
+        "point": 0.31354166666666666,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.023629980359147026,
+          0.02481053591470258
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 17
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.020701173440756775,
+        0.022506728996312328
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.045511709355459354,
+          0.046136709355459354
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 9
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.2508086069023569,
+          0.25212805134680133
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 19
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.022025603254769932,
+        0.024595047699214334
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.27415365460157126,
+          0.27540365460157124
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 18
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.4075008344279178,
+          0.4158341677612511
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 12
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        -0.03576755998630998,
+        -0.01979533776408776
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.3800666077749411,
+          0.38770549666383003
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 11
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.08969649699658118,
+          0.0922217495218337
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 20
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.01486183126924695,
+        0.020038598946014632
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.10708358079108066,
+          0.10973509594259581
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 21
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.40516185517251624,
+          0.41046488547554655
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 42
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        -0.025233379018553215,
+        -0.014879843665017822
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.38523150645699333,
+          0.3902820115074984
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 40
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.29529320987654323,
+          0.29529320987654323
+        ],
+        "point": 0.29529320987654323,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.019791666666666652,
+      "difference_bounds": [
+        0.019791666666666652,
+        0.019791666666666652
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.3150848765432099,
+          0.3150848765432099
+        ],
+        "point": 0.3150848765432099,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.04258207070707071,
+          0.04369318181818182
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 16
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        -0.019516266333974668,
+        -0.017780155222863556
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.02417691548420715,
+          0.02480191548420715
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 9
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.2698496071829405,
+          0.27144682940516274
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 23
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.0031719276094276383,
+        0.006158038720538772
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.2746187570145904,
+          0.27600764590347926
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 20
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.49453921592810485,
+          0.5037984751873641
+        ],
+        "point": null,
+        "records": 1620,
+        "unavailable": 15
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        -0.03176425574705588,
+        -0.012011169327302784
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.4720342194403082,
+          0.48252804660080206
+        ],
+        "point": null,
+        "records": 1620,
+        "unavailable": 17
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.3677665642652109,
+          0.3707968672955139
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 27
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.0004278034907312378,
+        0.006825109888037639
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.37122467078624516,
+          0.37459167415324857
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 30
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.4974229311353641,
+          0.5011266348390678
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 33
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        -0.018636584588790084,
+        -0.010106842725714882
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.48249005025027775,
+          0.48731608840964924
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 43
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.29406721536351166,
+          0.29406721536351166
+        ],
+        "point": 0.29406721536351166,
+        "records": 1980,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.0179698216735254,
+      "difference_bounds": [
+        0.0179698216735254,
+        0.0179698216735254
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.31203703703703706,
+          0.31203703703703706
+        ],
+        "point": 0.31203703703703706,
+        "records": 1980,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.06324374254003884,
+          0.06392275488571784
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 11
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        -0.0023091897814120008,
+        -0.000951165090053982
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.061613565104305844,
+          0.06229257744998486
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 11
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.2609556054370869,
+          0.26212844494325976
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 19
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.0001002307020825377,
+        0.0024459097144282627
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.2622286756453423,
+          0.26340151515151516
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 19
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.404611191277858,
+          0.4115556357223024
+        ],
+        "point": null,
+        "records": 720,
+        "unavailable": 5
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        0.004717450759117392,
+        0.018606339648006287
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.4162730864814198,
+          0.4232175309258643
+        ],
+        "point": null,
+        "records": 720,
+        "unavailable": 5
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.015489572506617958,
+          0.01851987553692099
+        ],
+        "point": null,
+        "records": 3936,
+        "unavailable": 12
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.1073809549244454,
+        0.11041125795474842
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.12590083046136638,
+          0.12590083046136638
+        ],
+        "point": 0.12590083046136638,
+        "records": 3936,
+        "unavailable": 0
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.4097448282949125,
+          0.4145428080928923
+        ],
+        "point": null,
+        "records": 3936,
+        "unavailable": 19
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.015605708539911667,
+        0.024191567125770252
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.43014851663280396,
+          0.43393639542068274
+        ],
+        "point": null,
+        "records": 3936,
+        "unavailable": 15
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.2914351851851852,
+          0.2914351851851852
+        ],
+        "point": 0.2914351851851852,
+        "records": 880,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.03495370370370371,
+      "difference_bounds": [
+        0.03495370370370371,
+        0.03495370370370371
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.3263888888888889,
+          0.3263888888888889
+        ],
+        "point": 0.3263888888888889,
+        "records": 880,
+        "unavailable": 0
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.019347783389450056,
+          0.019764450056116722
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 3
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.009941152597402598,
+        0.01091337481962482
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.02970560265351932,
+          0.030261158209074875
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 4
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.24710009820426487,
+          0.24848898709315376
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 10
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.038009680134680146,
+        0.040787457912457914
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.2864986672278339,
+          0.2878875561167228
+        ],
+        "point": null,
+        "records": 7176,
+        "unavailable": 10
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.3445821578113245,
+          0.3508321578113245
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 9
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        0.07950621812600983,
+        0.095478440348232
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.4303383759373343,
+          0.4400605981595565
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 14
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.05427973553613635,
+          0.056678725435126254
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 19
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.09367723232526806,
+        0.09645501010304583
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.15035595776039432,
+          0.15073474563918218
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 3
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.3608186746419358,
+          0.3652378665611277
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 35
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.0743366715710187,
+        0.08229121702556413
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.4395745381321464,
+          0.4431098916674999
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 28
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.2924382716049383,
+          0.2924382716049383
+        ],
+        "point": 0.2924382716049383,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.023418209876543195,
+      "difference_bounds": [
+        0.023418209876543195,
+        0.023418209876543195
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.3158564814814815,
+          0.3158564814814815
+        ],
+        "point": 0.3158564814814815,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.023629980359147026,
+          0.02481053591470258
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 17
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.01850464215568382,
+        0.020032419933461602
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.0433151780703864,
+          0.04366240029260863
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 5
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.2508086069023569,
+          0.25212805134680133
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 19
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.013382400392817073,
+        0.015743511503928165
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.2655104517396184,
+          0.26655211840628507
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 15
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.4075008344279178,
+          0.4158341677612511
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 12
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        0.04723538155063889,
+        0.06667982599508332
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.46306954931189,
+          0.4741806604230011
+        ],
+        "point": null,
+        "records": 1440,
+        "unavailable": 16
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.08969649699658118,
+          0.0922217495218337
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 20
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.011061816133891053,
+        0.016996159568234484
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.10328356565572476,
+          0.10669265656481566
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 27
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.40516185517251624,
+          0.41046488547554655
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 42
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        0.05264639423102113,
+        0.06262114170576866
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.4631112797065677,
+          0.4677829968782849
+        ],
+        "point": null,
+        "records": 7872,
+        "unavailable": 37
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.29529320987654323,
+          0.29529320987654323
+        ],
+        "point": 0.29529320987654323,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.005439814814814814,
+      "difference_bounds": [
+        0.005439814814814814,
+        0.005439814814814814
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.30073302469135804,
+          0.30073302469135804
+        ],
+        "point": 0.30073302469135804,
+        "records": 1760,
+        "unavailable": 0
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.04258207070707071,
+          0.04369318181818182
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 16
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        -0.01346953914141414,
+        -0.011733428030303028
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.03022364267676768,
+          0.03084864267676768
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 9
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.2698496071829405,
+          0.27144682940516274
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 23
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.0038258978675645428,
+        0.007020342312008987
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.2752727272727273,
+          0.2768699494949495
+        ],
+        "point": null,
+        "records": 14352,
+        "unavailable": 23
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.49453921592810485,
+          0.5037984751873641
+        ],
+        "point": null,
+        "records": 1620,
+        "unavailable": 15
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        -0.010012975707420102,
+        0.009740110712332994
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.493785499479944,
+          0.5042793266404378
+        ],
+        "point": null,
+        "records": 1620,
+        "unavailable": 17
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.3677665642652109,
+          0.3707968672955139
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 27
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        -0.0010983377691444196,
+        0.006421303083829766
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.3696985295263695,
+          0.3741878673490407
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 40
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.4974229311353641,
+          0.5011266348390678
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 33
+      },
+      "conversations": 232,
+      "difference": null,
+      "difference_bounds": [
+        -0.015198267594600967,
+        -0.006107358503691873
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.48592836724446686,
+          0.49131557263167225
+        ],
+        "point": null,
+        "records": 8856,
+        "unavailable": 48
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.29406721536351166,
+          0.29406721536351166
+        ],
+        "point": 0.29406721536351166,
+        "records": 1980,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.023456790123456805,
+      "difference_bounds": [
+        0.023456790123456805,
+        0.023456790123456805
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.31752400548696846,
+          0.31752400548696846
+        ],
+        "point": 0.31752400548696846,
+        "records": 1980,
+        "unavailable": 0
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.06324374254003884,
+          0.06392275488571784
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 11
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.012841252026437211,
+        0.014384461902980414
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.07676400691215506,
+          0.07762820444301925
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 14
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.2609556054370869,
+          0.26212844494325976
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 19
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.012458660680882916,
+        0.014927796483352074
+      ],
+      "family": "Qwen",
+      "high": {
+        "bounds": [
+          0.2745871056241427,
+          0.275883401920439
+        ],
+        "point": null,
+        "records": 16146,
+        "unavailable": 21
+      },
+      "high_target": "partial",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.43820772442848466,
+          0.43820772442848466
+        ],
+        "point": 0.43820772442848466,
+        "records": 540,
+        "unavailable": 0
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        -0.007189886813424806,
+        -0.005338034961572979
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.43101783761505985,
+          0.4328696894669117
+        ],
+        "point": null,
+        "records": 540,
+        "unavailable": 1
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.00797749757205425,
+          0.00797749757205425
+        ],
+        "point": 0.00797749757205425,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": 0.20443786868035926,
+      "difference_bounds": [
+        0.20443786868035926,
+        0.20443786868035926
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.2124153662524135,
+          0.2124153662524135
+        ],
+        "point": 0.2124153662524135,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.43337362890053244,
+          0.43337362890053244
+        ],
+        "point": 0.43337362890053244,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": -0.00016031442939701268,
+      "difference_bounds": [
+        -0.00016031442939701268,
+        -0.00016031442939701268
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.4332133144711354,
+          0.4332133144711354
+        ],
+        "point": 0.4332133144711354,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.23302469135802467,
+          0.23302469135802467
+        ],
+        "point": 0.23302469135802467,
+        "records": 660,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.0069958847736625585,
+      "difference_bounds": [
+        0.0069958847736625585,
+        0.0069958847736625585
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.24002057613168723,
+          0.24002057613168723
+        ],
+        "point": 0.24002057613168723,
+        "records": 660,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.002787130564908343,
+          0.002787130564908343
+        ],
+        "point": 0.002787130564908343,
+        "records": 5382,
+        "unavailable": 0
+      },
+      "conversations": 594,
+      "difference": 0.12436354283576506,
+      "difference_bounds": [
+        0.12436354283576506,
+        0.12436354283576506
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.1271506734006734,
+          0.1271506734006734
+        ],
+        "point": 0.1271506734006734,
+        "records": 5382,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "A",
+      "binary": {
+        "bounds": [
+          0.22577347549569773,
+          0.22577347549569773
+        ],
+        "point": 0.22577347549569773,
+        "records": 5382,
+        "unavailable": 0
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.005601384212495314,
+        0.006527310138421227
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.23137485970819305,
+          0.23230078563411896
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 5
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.43764706930284275,
+          0.43764706930284275
+        ],
+        "point": 0.43764706930284275,
+        "records": 540,
+        "unavailable": 0
+      },
+      "conversations": 75,
+      "difference": -0.0015413637911774747,
+      "difference_bounds": [
+        -0.0015413637911774747,
+        -0.0015413637911774747
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.4361057055116653,
+          0.4361057055116653
+        ],
+        "point": 0.4361057055116653,
+        "records": 540,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.16002426153629296,
+          0.16002426153629296
+        ],
+        "point": 0.16002426153629296,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": 0.04734833908133035,
+      "difference_bounds": [
+        0.04734833908133035,
+        0.04734833908133035
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.2073726006176233,
+          0.2073726006176233
+        ],
+        "point": 0.2073726006176233,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.42996714725271806,
+          0.42996714725271806
+        ],
+        "point": 0.42996714725271806,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": -0.001234830136793541,
+      "difference_bounds": [
+        -0.001234830136793541,
+        -0.001234830136793541
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.4287323171159245,
+          0.4287323171159245
+        ],
+        "point": 0.4287323171159245,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.2205761316872428,
+          0.2205761316872428
+        ],
+        "point": 0.2205761316872428,
+        "records": 660,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.025102880658436216,
+      "difference_bounds": [
+        0.025102880658436216,
+        0.025102880658436216
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.24567901234567902,
+          0.24567901234567902
+        ],
+        "point": 0.24567901234567902,
+        "records": 660,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.09045594837261504,
+          0.09045594837261504
+        ],
+        "point": 0.09045594837261504,
+        "records": 5382,
+        "unavailable": 0
+      },
+      "conversations": 594,
+      "difference": 0.036748503554059106,
+      "difference_bounds": [
+        0.036748503554059106,
+        0.036748503554059106
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.12720445192667415,
+          0.12720445192667415
+        ],
+        "point": 0.12720445192667415,
+        "records": 5382,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "B",
+      "binary": {
+        "bounds": [
+          0.23288112607557052,
+          0.23288112607557052
+        ],
+        "point": 0.23288112607557052,
+        "records": 5382,
+        "unavailable": 0
+      },
+      "conversations": 594,
+      "difference": 0.003690796857463513,
+      "difference_bounds": [
+        0.003690796857463513,
+        0.003690796857463513
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.23657192293303403,
+          0.23657192293303403
+        ],
+        "point": 0.23657192293303403,
+        "records": 5382,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.4545350503620586,
+          0.46564616147316973
+        ],
+        "point": null,
+        "records": 540,
+        "unavailable": 6
+      },
+      "conversations": 75,
+      "difference": null,
+      "difference_bounds": [
+        -0.02905527807673075,
+        -0.017944166965619623
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.436590883396439,
+          0.436590883396439
+        ],
+        "point": 0.436590883396439,
+        "records": 540,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.20422392677442544,
+          0.20422392677442544
+        ],
+        "point": 0.20422392677442544,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": 0.008225092139677925,
+      "difference_bounds": [
+        0.008225092139677925,
+        0.008225092139677925
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.21244901891410337,
+          0.21244901891410337
+        ],
+        "point": 0.21244901891410337,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.45807954669046536,
+          0.45807954669046536
+        ],
+        "point": 0.45807954669046536,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": -0.025268673286837795,
+      "difference_bounds": [
+        -0.025268673286837795,
+        -0.025268673286837795
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.43281087340362756,
+          0.43281087340362756
+        ],
+        "point": 0.43281087340362756,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.21790123456790123,
+          0.21790123456790123
+        ],
+        "point": 0.21790123456790123,
+        "records": 660,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": 0.012654320987654344,
+      "difference_bounds": [
+        0.012654320987654344,
+        0.012654320987654344
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.23055555555555557,
+          0.23055555555555557
+        ],
+        "point": 0.23055555555555557,
+        "records": 660,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.09939440703329593,
+          0.0995795922184811
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 1
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.024464552936775158,
+        0.024834923307145526
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.12404414515525626,
+          0.12422933034044145
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 1
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "C",
+      "binary": {
+        "bounds": [
+          0.23027356902356902,
+          0.2304587542087542
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 1
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.0015586419753086667,
+        0.002669753086419757
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.23201739618406286,
+          0.23294332210998878
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 5
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.4679587516393072,
+          0.4679587516393072
+        ],
+        "point": 0.4679587516393072,
+        "records": 540,
+        "unavailable": 0
+      },
+      "conversations": 75,
+      "difference": -0.002001825939734414,
+      "difference_bounds": [
+        -0.002001825939734414,
+        -0.002001825939734414
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.4659569256995728,
+          0.4659569256995728
+        ],
+        "point": 0.4659569256995728,
+        "records": 540,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.22501690716575895,
+          0.22501690716575895
+        ],
+        "point": 0.22501690716575895,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": 0.010502059911483369,
+      "difference_bounds": [
+        0.010502059911483369,
+        0.010502059911483369
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.23551896707724232,
+          0.23551896707724232
+        ],
+        "point": 0.23551896707724232,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.4585606711685307,
+          0.4585606711685307
+        ],
+        "point": 0.4585606711685307,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "conversations": 232,
+      "difference": -0.006947454406008191,
+      "difference_bounds": [
+        -0.006947454406008191,
+        -0.006947454406008191
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.45161321676252253,
+          0.45161321676252253
+        ],
+        "point": 0.45161321676252253,
+        "records": 2952,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "safepyramid"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.26008230452674896,
+          0.26008230452674896
+        ],
+        "point": 0.26008230452674896,
+        "records": 660,
+        "unavailable": 0
+      },
+      "conversations": 220,
+      "difference": -0.006584362139917699,
+      "difference_bounds": [
+        -0.006584362139917699,
+        -0.006584362139917699
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.25349794238683127,
+          0.25349794238683127
+        ],
+        "point": 0.25349794238683127,
+        "records": 660,
+        "unavailable": 0
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "ID",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.13099607182940515,
+          0.13118125701459035
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 1
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        0.002993359521137301,
+        0.00354891507669286
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.13417461653572765,
+          0.134544986906098
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 2
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "OFF",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    },
+    {
+      "arm": "D",
+      "binary": {
+        "bounds": [
+          0.2429949494949495,
+          0.2431801346801347
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 1
+      },
+      "conversations": 594,
+      "difference": null,
+      "difference_bounds": [
+        -0.006915637860082313,
+        -0.005804526748971223
+      ],
+      "family": "GPT",
+      "high": {
+        "bounds": [
+          0.23626449682005238,
+          0.2371904227459783
+        ],
+        "point": null,
+        "records": 5382,
+        "unavailable": 5
+      },
+      "high_target": "iou",
+      "inference": null,
+      "metric": "supported_predicted_fraction",
+      "mode": "TWO_STAGE_ON",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "regime": "OOD",
+      "source": "dynabench"
+    }
+  ],
+  "schema": "matched-target-support-descriptive-bounds-v1",
+  "sources": {
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/GPT_FULL_GRADED_COMPACT_1794879311.json.gz": "62f346f2a4cdf3dcf1cc28a704738f0085f7268d1824a55beef50ec1ec404e7f",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/PLAN.json": "d8bfa02641f75aa954290a980db33ec452be430671b9e2646faaac9f9499489b",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/QWEN_ARRAYS.json.gz": "b7d2146be63268c5f604f738ddfb848a0f43b3702eab26ae217aeb073f0d67f2",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/ID400_JOINED_SEMANTIC_Crefresh_V1.json.gz": "f27f67728250278f125aee1948ed67b590f4147e61c4c50674b8597c8cdd9eeb",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_join_v1/LATEST_C_SEMANTIC_1794926137452849865.json.gz": "11de09adf4d63d35c50e89dc8f15e723377c7497720146a5c705443884c310c0",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/ID400_calibration_v1/SOURCE_PANEL.json": "fe7bc9dcf8947b6892ef12fc07fd0f15cc5629df4256375639bccca9c83c796c",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/evidence_descriptive.py": "7c400d526934b133849066606117403ad4899594da46c9714830b76d0f039618"
+  }
+}

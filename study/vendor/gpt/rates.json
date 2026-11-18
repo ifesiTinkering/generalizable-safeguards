@@ -1,0 +1,18 @@
+{
+  "historical_snapshot_date": "2026-11-13",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "model": "openai/gpt-oss-120b:peft:131072",
+  "tinker": {
+    "prefill": ".33",
+    "cached_prefill": ".066",
+    "sample": ".84",
+    "train": "2.33",
+    "storage_gb_month": "0.10"
+  },
+  "source_urls": [
+    "https://tinker-docs.thinkingmachines.ai/tinker/models/models_and_pricing/"
+  ],
+  "current_prices_verified": false,
+  "grant_assumed": false
+}

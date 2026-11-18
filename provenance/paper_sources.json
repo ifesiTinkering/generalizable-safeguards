@@ -1,0 +1,80 @@
+{
+  "active_files": [
+    {
+      "name": "main.tex",
+      "sha256": "73bbe3b9efb3de7c701c234b73dca4b4e7582913206fb8bf7865f48299c1e33d"
+    },
+    {
+      "name": "page1_setup.tex",
+      "sha256": "3058a0a61e7c4ecae965b2cb4669c2605a7b66cdf9c9755ed356b12b9cd6a8e5"
+    },
+    {
+      "name": "literal_model_output.tex",
+      "sha256": "7f54a8dec0d60a2782550c34f5eac27045de1c49a32b97ed19803aa65da84e05"
+    },
+    {
+      "name": "training_rows_table.tex",
+      "sha256": "6c6826e25909878405dcf148211f84f7b38a015526880c0ba3f7737e49e131c7"
+    },
+    {
+      "name": "sft_starting_performance_compact.tex",
+      "sha256": "c6573f4f842fa6bebb06ad190e764a4bf7bfd3905856cb3388d517392f825d64"
+    },
+    {
+      "name": "reward_settings_table.tex",
+      "sha256": "c88bfe3c4e4668c874bed17fdbd9d67b2cfeee2fe5845e9ccb0f507c2d049059"
+    },
+    {
+      "name": "evaluation_setup_table.tex",
+      "sha256": "d43db62565db69ba881cd690540c4b484aaaa2cb7955854b3f7346f0222f9af0"
+    },
+    {
+      "name": "page2_calibration.tex",
+      "sha256": "d0e57b1caff5dd3c4c11ac224d9a32f24acd4219e6b537591b0f2e726722013d"
+    },
+    {
+      "name": "final_calibration_table.tex",
+      "sha256": "bf11fa7309118b0016f3bf4b7e0a433bb243d99d7481d4781f73dbcfa2d2d9ec"
+    },
+    {
+      "name": "sft_control_compact.tex",
+      "sha256": "0a3495db0a016b463385454d8516b3f3ca3e16a0849b9e1a7b6ba24887068681"
+    },
+    {
+      "name": "page4_in_domain.tex",
+      "sha256": "48048f1322fe66d9e28a1d17216e16cbe9d09abe06c15a6d006abf45acf35c60"
+    },
+    {
+      "name": "final_indomain_table.tex",
+      "sha256": "d921c2112493eabf07806e99aab7633000bc0fd767c1bcb24bb14c9a522d21ca"
+    },
+    {
+      "name": "policy_trend_compact.tex",
+      "sha256": "79a5cb2c9e063d7322efd61f25bb3648eb8d335d3bca9691765a9786863a55b5"
+    },
+    {
+      "name": "final_example.tex",
+      "sha256": "b3581899f62eee9f00d59a6045684a459f3ccd230f5d69d3d1502080560d24ea"
+    },
+    {
+      "name": "page5_evidence.tex",
+      "sha256": "054e85d1afa2e73118e8b52639b81c748ca5c346a42c9591e251a8b007b3b94d"
+    },
+    {
+      "name": "final_evidence_table.tex",
+      "sha256": "667399fc968f7b55405dcbfbfb08eaa10fbd83a0c5cfe73cd5c059e204ee2dc7"
+    },
+    {
+      "name": "page6_correctness.tex",
+      "sha256": "dc246480baa387be9fd91f443cb81a68f8dab495f77788ee0ac48d76b1635ff9"
+    },
+    {
+      "name": "configuration_leaders_compact.tex",
+      "sha256": "86dcccea3b9d7f13eab80fbf40d147b197c8789f2289fe2b31a1c49d7e14e6fb"
+    },
+    {
+      "name": "correctness_matched_fixed15.tex",
+      "sha256": "ed51810c8d1ded8d3c4f6cb8cf4044987e069c1f151816de0755f7abfcb8f70b"
+    }
+  ]
+}

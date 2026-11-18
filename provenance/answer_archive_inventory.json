@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "id-GPT": 10000,
+    "id-Qwen": 40800,
+    "ood-GPT": 138900,
+    "ood-Qwen": 566712,
+    "policy-GPT": 2100,
+    "policy-Qwen": 8568
+  },
+  "missing": 0,
+  "parts": 175,
+  "provider_calls": 0,
+  "raw_status": {
+    "verified": 767080
+  },
+  "records": 767080,
+  "release_candidate_manifest_sha256": "e3e0d5d7aea31e2c8eb8c62620007827c7659fdd594e1fc20ee7a097a5bc9927",
+  "remote_mutations": 0,
+  "source_archives": [
+    {
+      "bytes": 901250942,
+      "path": "private/model-answers.jsonl.gz",
+      "sha256": "1f8ae181018245e4b97371c462b6b3e1906a02d81083871b98d5f046893e8db4"
+    },
+    {
+      "bytes": 1031099,
+      "path": "private/model-answers-legacy.jsonl.gz",
+      "sha256": "df4183e9777a0c03f1fa8494c6580d0a07c21e989e56913e4e10aebbcfe20c44"
+    }
+  ],
+  "unexpected": 0
+}

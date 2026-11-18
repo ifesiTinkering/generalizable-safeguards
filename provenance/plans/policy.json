@@ -1,0 +1,8534 @@
+{
+  "schema": "policy28_remaining14_secondary560_v1",
+  "unix": 1794927564.308207,
+  "status": "frozen_before_secondary_p_values",
+  "authorized_by_root": true,
+  "original_primary_families_unchanged": {
+    "recipe": 80,
+    "correctness": 64
+  },
+  "family_size": 560,
+  "metrics": [
+    "rule_precision",
+    "rule_recall",
+    "exact_set_accuracy",
+    "parseability",
+    "confidence_mean",
+    "confidence_SD",
+    "IoU_ECE10",
+    "exact_error_AUROC",
+    "exact_error_AP",
+    "F1_AURC",
+    "F1_loss_capture_review20",
+    "confidence_F1_Spearman",
+    "supported_predicted_fraction",
+    "supported_prediction_count"
+  ],
+  "slots": [
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "B-A",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "C-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-B",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "Qwen",
+      "target": "partial",
+      "contrast": "D-C",
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        36,
+        42
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "binary",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "B-A",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "C-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-B",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_precision",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "rule_recall",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_set_accuracy",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "parseability",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_mean",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_SD",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "IoU_ECE10",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AUROC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "exact_error_AP",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_AURC",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "F1_loss_capture_review20",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "confidence_F1_Spearman",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_predicted_fraction",
+      "endpoint": "L2_minus_L0_interaction"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_direct"
+    },
+    {
+      "family": "GPT",
+      "target": "iou",
+      "contrast": "D-C",
+      "paired_seeds": [
+        2,
+        4,
+        5
+      ],
+      "metric": "supported_prediction_count",
+      "endpoint": "L2_minus_L0_interaction"
+    }
+  ],
+  "bindings": {
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/ANALYSIS_PLAN_FROZEN.json": "395aebe83a9c961b123debc6569f62e1940f78fac4a99ac15b4518a5fa05dedd",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/SOURCE_PANEL.json": "19b921244f8d5cfdf503a632b61ec036686ccc3084e3e6ab7a7758f27cd4a481",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/snapshot_fixed_metrics.py": "45aeb45623ce92c13df0bb3bcb8fee0be2ef2310ecf3e639ca79d92144eb011a"
+  },
+  "outcomes_already_inspected": "Prior17 study, selected partial20 complete-conversation descriptive metrics and their directions, including L2 confidence error, were inspected. This is explicitly a new secondary analysis; not originally preregistered confirmation. No new secondary p-values computed before freeze.",
+  "population": "All frozen28 positive SafePyramid conversations, four per seven domains, exactsame84 level views, thinking on draw0, fixed paired checkpoints. Complete full comparison grid required.",
+  "estimator": "Canonical metric pooled over28 balanced conversations separately per checkpoint and level, then mean of paired-seed differences. L2 direct and L2-minus-L0 interaction. Nonlinear metrics are pooled, not a mean of four-case domain metrics; equal-size domain strata are preserved.",
+  "inference": {
+    "bootstrap_replicates": 1999,
+    "bootstrap_seed": 741920,
+    "bootstrap": "Resample four conversation clusters with replacement independently inside each of seven domains, preserving all levels/checkpoints/arms. Percentile95 interval.",
+    "permutation_replicates": 19999,
+    "permutation_seed": 192011,
+    "null": "Independent conversation-level Rademacher flips swap the complete paired arm records simultaneously across all levels and paired seeds; recompute nonlinear metrics each draw. Two-sided plus-one p-value.",
+    "correction": "BH across all560; Holm retained as sensitivity. All unavailable slots p1.",
+    "defined_rule": "At least95% defined bootstrap AND permutation replicates; undefined nulls count as extreme for conservative upper p. No undefined draw counts as evidence against null.",
+    "semantic_missing": "Original grades stay null; no imputation/partial mean. Unknown semantic endpoint or failed defined rule leaves its test unavailable. Identification bounds remain descriptive."
+  },
+  "provider_calls": 0,
+  "no_new_model_sampling": true
+}

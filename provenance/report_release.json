@@ -1,0 +1,108 @@
+{
+  "observed_utc": "2026-11-17T22:36:20.763216+00:00",
+  "status": "FIVE_PAGE_NUMBERED_FIGURES_AND_TABLE_LAYOUT_REVISION_LIVE_VERIFIED",
+  "pages": 5,
+  "overleaf": "https://www.overleaf.com/project/6afb6088ecb5d347794b036a",
+  "pdf": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/overleaf_compiled.pdf",
+  "pdf_sha256": "02b1f331b649907140093f314eb607dc061c3d3cbf4de580068a3cb1ec2dcd38",
+  "source_directory": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117",
+  "source_bundle": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/latex_source_final.zip",
+  "claims": [
+    "Calibration can improve confidence accuracy in Qwen3.5-9B and GPT-OSS-120B on out-of-distribution domains in SafePyramid (in-distribution dataset) and DynaBench (out-of-distribution dataset), and on in-distribution domains in SafePyramid (in-distribution dataset).",
+    "Evidence rewards can improve rule support on out-of-distribution domains in SafePyramid (in-distribution dataset) in Qwen3.5-9B and GPT-OSS-120B.",
+    "Binary correctness rewards can improve F1 over Jaccard on out-of-distribution domains in DynaBench (out-of-distribution dataset), with thinking off, in Qwen3.5-9B and GPT-OSS-120B."
+  ],
+  "structure": "Main findings and ablation findings within each claim. Fixed-policy experiment nested under calibration. No next steps.",
+  "within_model_comparisons": true,
+  "GPT_seed_subset": [
+    2,
+    4,
+    5
+  ],
+  "Qwen_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    36,
+    42
+  ],
+  "fixed_metric_count_main_tables": 15,
+  "SFT_supporting_control_metrics": [
+    "F1",
+    "ECE",
+    "F1_AURC"
+  ],
+  "in_domain": {
+    "rows": 400,
+    "mode": "thinking on",
+    "answers_per_row": 1,
+    "complete": true,
+    "evidence_missing": "160 Qwen+1 GPT unavailable; conservatively bounded, zero pending"
+  },
+  "out_of_domain": {
+    "rows": 926,
+    "answers_per_row_per_mode": 3,
+    "modes": [
+      "thinking off",
+      "thinking on"
+    ],
+    "domains": [
+      "content moderation",
+      "specialized advice",
+      "intellectual property"
+    ]
+  },
+  "policy_ablation": {
+    "conversations": 28,
+    "per_domain": 4,
+    "domains": 7,
+    "rows": 84,
+    "answers": 10668,
+    "usable_grades": 10609,
+    "unavailable_grades": 59,
+    "pending": 0
+  },
+  "GPT_C": {
+    "latest_evaluated_snapshots_included": true,
+    "binary_seed2_update": 69,
+    "binary_seed4_update": 62,
+    "binary_seed5_update": 51,
+    "Jaccard_seed2_4_5_updates": [
+      41,
+      41,
+      41
+    ],
+    "validation_stops": 4,
+    "paused_before_validation_stop": 2,
+    "status_receipt": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/progress_receipts/C6_LATEST_EVALUATION_STATUS_20261117.json",
+    "resampling_needed": false
+  },
+  "correctness_tests": {
+    "family_size": 1008,
+    "secondary_after_descriptive_inspection": true,
+    "conservative_V2_source": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/CONSERVATIVE_V2/RESULTS.json.gz",
+    "sha256": "f60a22187cffd33fc0f5a6ed4ff55708388263570668a0e63f50aa53d63f3f78",
+    "draws": 1999,
+    "null_and_bootstrap_defined_gate": ".95",
+    "original_V1_preserved": true,
+    "no_new_provider_calls": true
+  },
+  "configuration_ranking": "Descriptive all-available12-configQwen/8-configGPT means; separate from paired reward tests. No universal winner inferred.",
+  "verification": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/OVERLEAF_CURRENT_VERIFY.json",
+  "prior_release_archived": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/release_before_numbered_figures_revision_20261117",
+  "new_Tinker_sampling_cost_usd": 0,
+  "new_grader_calls": 0,
+  "editorial_changes": [
+    "Table 1 separates supervised fine-tuning and reinforcement learning, with explicit positive and negative counts for each dataset.",
+    "Table 2 shows model and thinking mode in rows, with unchanged baseline values.",
+    "Figure 1 labels the complete saved model answer in the setup.",
+    "Figure 2 labels the saved SFT/A/B example; references resolve.",
+    "All five compiled Overleaf pages reviewed; all result tables and p-values unchanged."
+  ],
+  "ROC_figure_assessment": "Not included: binary SafePyramid thinking-on AUROC A-to-B passes the frozen adjusted test for Qwen only (p=.046345); GPT descriptive increase has adjusted p=1.000. Existing tables retained.",
+  "numbered_figures": 2
+}

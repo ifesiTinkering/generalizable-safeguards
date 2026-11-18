@@ -1,0 +1,7 @@
+{\fontsize{8.5}{9.7}\selectfont\setlength{\tabcolsep}{4pt}
+\reporttable{tab:policy-ece-trend}{Binary calibration and the ECE trend.} Lower ECE is better. \armA{}/\armB{} share four Qwen3.5-9B seeds and three GPT-OSS-120B seeds. Improvement is A's L2-minus-L0 change minus B's change. P-values are adjusted for the policy-level comparisons.
+\par\begin{tabularx}{\linewidth}{@{}Xrrrr@{}}\toprule
+Model & A: L0 $\to$ L2 & B: L0 $\to$ L2 & Improvement & Adjusted $p$\\\midrule
+\rowcolor{blue!4}Qwen3.5-9B & .039$\to$.356 & .089$\to$.261 & \textbf{.145} & .0048\\
+\rowcolor{orange!6}GPT-OSS-120B & .137$\to$.530 & .240$\to$.118 & \textbf{.515} & .0048\\\bottomrule
+\end{tabularx}}

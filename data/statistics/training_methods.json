@@ -1,0 +1,98 @@
+{
+  "schema": "Qwen-GPT-source-bound-training-methods-comparison-v1",
+  "unix": 1794851718.663438,
+  "passed": true,
+  "provider_calls": 0,
+  "common": {
+    "learning_rate": 1e-05,
+    "adam": {
+      "beta1": 0.9,
+      "beta2": 0.95,
+      "eps": 1e-08
+    },
+    "batch_size": 3,
+    "rows_per_domain": 1,
+    "samples_per_prompt": 10,
+    "algorithm": "official_Tinker_centered_raw_token_sum_importance_sampling_beta0",
+    "loss_fn": "importance_sampling",
+    "loss_fn_config": null,
+    "reference_kl_coefficient": 0.0,
+    "reward_std_normalization": false,
+    "response_length_normalization": false,
+    "temperature": 1.0,
+    "max_tokens": 23000,
+    "context_limit": 65536,
+    "validation_every_updates": 10,
+    "row_queue_schema": "claim2-safepyramid-policytraj-append-v1",
+    "validation_rows": 90,
+    "validation_samples_per_row": 1,
+    "training_mode": "OFF",
+    "successful_optimizer_cap": 155,
+    "latest_stop_rule": "selection_three_majority_rolling_five_v1",
+    "min_delta": 0.03,
+    "rolling_complete_points": 5,
+    "stop_if_known_failed_components_at_least": 2,
+    "fresh_RL_optimizer_from_selected_SFT": true
+  },
+  "differences": {
+    "base_model": {
+      "Qwen": "Qwen/Qwen3.5-9B",
+      "GPT": "openai/gpt-oss-120b:peft:131072"
+    },
+    "LoRA_rank": {
+      "Qwen": 64,
+      "GPT": 32
+    },
+    "renderer": {
+      "Qwen": "qwen3_5_disable_thinking",
+      "GPT": "gpt_oss_no_sysprompt/native Harmony final"
+    },
+    "selected_SFT": {
+      "Qwen": "formatonly-epoch04",
+      "GPT": "first answeronly55 update27 after format/balanced ancestry"
+    },
+    "original_roster": {
+      "Qwen": "binary/F1/IoU \u00d7 A/B/C/D \u00d7 nine seeds",
+      "GPT": "binary/IoU \u00d7 A/B/D \u00d7 seeds2/4/5; six C separately newly authorized"
+    },
+    "stopping_history": {
+      "Qwen": "Stricter three-component rule installed during recovery; earlier stopping used prior103-metric rule. Original supplement manifest300 cap is superseded by cap155 recovery bindings.",
+      "GPT": "Strict three-component rule from initial admitted RL; no minimum100."
+    },
+    "selected_checkpoint_exposure": {
+      "Qwen_frozen101": "72 consumed PolicyTraj,29 SafePyramid-only",
+      "GPT_terminal18": "2 consumed PolicyTraj,16 SafePyramid-only",
+      "causal_model_only_comparison": false
+    }
+  },
+  "interpretation": [
+    "3 prompts/attempt,one per training domain;10 completions/prompt. Attempts may not produce a successful update when all groups have zero advantage.",
+    "Centered raw-token-sum importance_sampling; no reward-SD or response-length normalization; reference KL0; loss_fn_config null. Do not describe as standard clipped PPO/GRPO.",
+    "Validation every10 successful updates with90 fixed rows\u00d7one response. Async lag can make final successful update exceed stopping-decision update.",
+    "Both configure original420 plus1210 appended PolicyTraj row views; consumption depends on exact saved cursor."
+  ],
+  "bindings": {
+    "fresh_Qwen_manifest_snapshot": {
+      "path": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/qwen/CURRENT_QWEN_TRAINING_MANIFESTS.json",
+      "sha256": "f3fff207f9fe5e22742bbe885b452ec559db86cec5af99c64f5c8ee19708e818"
+    },
+    "prior_actual_Qwen_source_and_step_audit": {
+      "path": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/qwen/metric_code_audit_20261115/TRAINING_METHODS_BOUND_ACTUAL.json",
+      "sha256": "107763aead30194d01296069e345f7548e3e8440380d3c1272f4dc6b7428986d"
+    },
+    "GPT_actual_approved_manifest": {
+      "path": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/largepod_concurrent_v1/manifest_approved.json",
+      "sha256": "ced9083a423a749121b03252ba5ef173dd9982c3dd04ca9c384437dcebfa47f5"
+    },
+    "GPT_actual_template": {
+      "path": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/rl_retention_rotation_v1/worker_template.json",
+      "sha256": "198a7646c2021ed327358f411335e408eab4447398974c143ee9609b484356f0"
+    },
+    "byte_identical_update_sources": {
+      "Qwen": "outputs/research/claim2_evidence_ablations_20261111/runtime_v19_policytraj_streaming/update.py",
+      "GPT": "outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/rl_http_metadata_v5/source_snapshot/update.py",
+      "sha256": "d7149dde820849b7df1ba7560eb15302b44a114874d4414e2fc07c98d5bee31a"
+    },
+    "strict_helper_sha256": "d008830e0509c423dbbd6dfc806f1cd9e3b6b07bb95f0f10a7112be3e9c0bdfa"
+  }
+}

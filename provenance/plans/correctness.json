@@ -1,0 +1,43 @@
+{
+  "schema": "direct-correctness-secondary1008-plan-v1",
+  "frozen_unix": 1794932306.000795,
+  "family_size": 1008,
+  "metric_count": 14,
+  "metrics": [
+    "rule_F1",
+    "Jaccard_IoU",
+    "rule_precision",
+    "rule_recall",
+    "exact_set_accuracy",
+    "parseability",
+    "confidence_mean",
+    "confidence_SD",
+    "IoU_ECE10",
+    "exact_error_AUROC",
+    "exact_error_AP",
+    "F1_AURC",
+    "F1_loss_capture_review20",
+    "confidence_F1_Spearman"
+  ],
+  "scope": "3 within-model target contrasts (Qwen IoU-binary, Qwen F1-binary, GPT IoU-binary) x4arms x6available source/regime/mode cells x14nonsemantic metrics. Exact common eligible seeds per arm.",
+  "secondary_after_descriptive_inspection": true,
+  "all_prior_families_unchanged": true,
+  "replicates": 1999,
+  "null": "One random label swap per unique conversation, shared across all domains/rows/draws/seeds of that conversation; recompute nonlinear metrics. Fixed checkpoints.",
+  "bootstrap": "1999 global conversation-cluster bootstrap draws within each source/scope, preserving cross-domain duplicates. Equal domain then seed means.",
+  "missing": "Undefined point or fewer than95% defined nulls retains rawp1 in full1008; undefined nulls counted as extreme. Evidence fraction/count excluded from inference, no missing-zero imputation.",
+  "confidence": "Own-valid primary metric; common-valid descriptive sensitivity recomputed on paired intersection. No secondary test chosen from sensitivity.",
+  "provider_calls": 0,
+  "source_bindings": {
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/QWEN_ARRAYS.json.gz": "b7d2146be63268c5f604f738ddfb848a0f43b3702eab26ae217aeb073f0d67f2",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/GPT_OOD_SEMANTIC_ARRAYS.json.gz": "6a3af34e3585d6b5837c47dd753ee2fb6f2fc2e1ecd9d026a06117788cb11a8b",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/GPT_COMPACT.json.gz": "565d8cb62f11e6a2587c3a0d7662e5df5445df9484112a4b59fa4e763450093d",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/OOD_NEW_RECORDS.json.gz": "04d1ea6085ba8e92ff4952b89a5528cfe3bbd515e54c0d7cf97f7b647e8df5aa",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/Crefresh_analysis_v1/ID400_JOINED_SEMANTIC_Crefresh_V1.json.gz": "f27f67728250278f125aee1948ed67b590f4147e61c4c50674b8597c8cdd9eeb",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/ID400_calibration_v1/SOURCE_PANEL.json": "fe7bc9dcf8947b6892ef12fc07fd0f15cc5629df4256375639bccca9c83c796c",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/PLAN.json": "d8bfa02641f75aa954290a980db33ec452be430671b9e2646faaac9f9499489b",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/policy_triplets28_v3/secondary_metrics.py": "eeabc2f135ec504d90f952c339892480248a02757549719fc136e1d6b220167d",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/ID400_calibration_v1/batched_fixed_metrics.py": "2b75408cd543c8f51bf5c40f140de3cc97f0e0c621a882ff123e1a3a77240295",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/gpt/terminal_evaluation_v1/direct_correctness_secondary_v1/run.py": "7e444d74019a4e4ea4f2e0c1b9396704a31fc1bf102fcd826d5bddf6d5d45aa0"
+  }
+}

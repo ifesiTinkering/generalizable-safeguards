@@ -1,0 +1,122 @@
+{
+  "files": [
+    {
+      "path": "data/panels/id.json",
+      "sha256": "7a36240a50d711d8c8e85b3d6ac1840c7cd2b5591c9f2b1877f044371e88fb87"
+    },
+    {
+      "path": "data/panels/ood.json",
+      "sha256": "e53398325988e359d64472b93d837d89bca4a7f0c16512e530f80b2ec83c0b65"
+    },
+    {
+      "path": "data/panels/policy.json",
+      "sha256": "db5de11df6050dcc850121c41145ff84c5d987463203a8c5d4ee2a558bf695d3"
+    },
+    {
+      "path": "data/runs/checkpoint-selection.json.gz",
+      "sha256": "3272a8f68a4d19cf82d6646feac00182bee8171621a913061acbdc6afd8bc2bc"
+    },
+    {
+      "path": "data/runs/checkpoints.json",
+      "sha256": "52dd937de288fd1bdfa0f789e7b1cb4bbce61dbee10febd9947a8b5b2e2f5be0"
+    },
+    {
+      "path": "data/runs/training-data-summary.json",
+      "sha256": "02cd53940341ccccef749ba6e440e98ebfb0414a5aa80c623a1abfd49e135254"
+    },
+    {
+      "path": "data/runs/training-history.json.gz",
+      "sha256": "641cf16190e043abc9f2df109e451c898804a64ed0d2b55297a3ae7d53aac754"
+    },
+    {
+      "path": "data/statistics/correctness_evidence.json",
+      "sha256": "5375cc73be047e23d96e6782c8d3b290465f10de21c9ff6eba27aeeb84e8aeec"
+    },
+    {
+      "path": "data/statistics/correctness_original.json.gz",
+      "sha256": "135c386f5612b9f096e443ca47d0798a3cfa57d7a8732c4a80e33ce53f26b04b"
+    },
+    {
+      "path": "data/statistics/correctness_points.json",
+      "sha256": "d2aa6e9265a5e745567c04d8b047b3df3f6a98bfca1f0cbe2d1786a83e490b74"
+    },
+    {
+      "path": "data/statistics/correctness_tests.json.gz",
+      "sha256": "f60a22187cffd33fc0f5a6ed4ff55708388263570668a0e63f50aa53d63f3f78"
+    },
+    {
+      "path": "data/statistics/id_all_arms.json",
+      "sha256": "5dde1bf158987e6bdb5a7634cab661fc00e572c705affc5f342e85e81d71d83d"
+    },
+    {
+      "path": "data/statistics/id_inference.json.gz",
+      "sha256": "6481b8bc71bb6ce675cb28962ae2c45f644491a2b82e46466b60a83ec2ce9d3d"
+    },
+    {
+      "path": "data/statistics/id_reader.json",
+      "sha256": "78e88a4a7e51c1175f55f9394c7931c6fe75c30db0b8f6f8434202bced71a849"
+    },
+    {
+      "path": "data/statistics/ood_calibration.json.gz",
+      "sha256": "83a0debcc522554c6fba660d11f7b8267ef1c41039063b5f0221aba97b5e95c3"
+    },
+    {
+      "path": "data/statistics/ood_evidence.json.gz",
+      "sha256": "236b8c0b3663a9c846a180753ff06734804ea8255713c4ca825e9fc00bff3898"
+    },
+    {
+      "path": "data/statistics/ood_evidence_missing.json",
+      "sha256": "6dfbe6c514e518494e67dd43a257e565b469c3967b0ca5e070d75c099486e7d5"
+    },
+    {
+      "path": "data/statistics/ood_latest_C.json",
+      "sha256": "9218a426c43884f9e8a1a457139a79ac9c20464d0d78a1f0e8053e44b0e982d6"
+    },
+    {
+      "path": "data/statistics/ood_points.json.gz",
+      "sha256": "46ce6de66b09addb6ce82cf60e479568870291488c8ee8d0fbc382cb5e70c0d9"
+    },
+    {
+      "path": "data/statistics/ood_sft_inference.json.gz",
+      "sha256": "198e9f48c971e3a06462a6ec47aa6ece8cc5acaaa4c9c3aa9ff26fb60a314655"
+    },
+    {
+      "path": "data/statistics/ood_sft_points.json.gz",
+      "sha256": "3d024863594a81f7065d0962830049208a11e83c6fb379a007091d58c935a07c"
+    },
+    {
+      "path": "data/statistics/policy_adjacent.json.gz",
+      "sha256": "c6ec8660943e7de3b110ed61f0a008d98b2c5c135c9ed9cb25106491dba0ebd4"
+    },
+    {
+      "path": "data/statistics/policy_core.json.gz",
+      "sha256": "610e31267afbb9804e48e514b6083088a66cc0676849cc45d3e6e371431543fa"
+    },
+    {
+      "path": "data/statistics/policy_metrics.json.gz",
+      "sha256": "f20a0c2fbaebee2d56e6857c152dd789b128e3758cd3c443ec57bc97badef380"
+    },
+    {
+      "path": "data/statistics/policy_secondary.json.gz",
+      "sha256": "8f2d3176bb0973a03d87441d38fbd628d84ef1c4d1f7f74e231186fa927bf9f8"
+    },
+    {
+      "path": "data/statistics/policy_trends.json",
+      "sha256": "204482269011e9ed716cb61042744f709e202f9d7f6cc4cae40c8c795bd6dab1"
+    },
+    {
+      "path": "data/statistics/qwen_f1_calibration.json.gz",
+      "sha256": "ca55aa882f8b89655ed2a68bfbd2164e2199cb67815b648584063e3829741c27"
+    },
+    {
+      "path": "data/statistics/sft_starting.json",
+      "sha256": "11f7fffd9364e6a32461c86cb7724c30a20f9fe240c5233e345e8a72db84d8e9"
+    },
+    {
+      "path": "data/statistics/training_methods.json",
+      "sha256": "283e2449f5cddd46fe4ea158ae980cd0e1f996edc2af6a01fd703497ec2d7cc8"
+    }
+  ],
+  "purpose": "Integrity checks for the exact archived roster, panels, means and inference packets",
+  "schema": "frozen-analysis-inputs-v1"
+}

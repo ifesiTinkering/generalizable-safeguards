@@ -1,0 +1,8 @@
+{\fontsize{8.5}{9.7}\selectfont\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\linewidth}{@{}Xrrrrrrrr@{}}\toprule
+& \multicolumn{2}{c}{Qwen3.5-9B} & \multicolumn{2}{c}{Qwen3.5-9B} & \multicolumn{2}{c}{GPT-OSS-120B} & \multicolumn{2}{c}{GPT-OSS-120B}\\
+& \multicolumn{2}{c}{\SPhead} & \multicolumn{2}{c}{\DBhead} & \multicolumn{2}{c}{\SPhead} & \multicolumn{2}{c}{\DBhead}\\
+Metric & SFT $\to$ B & $p$ & SFT $\to$ B & $p$ & SFT $\to$ B & $p$ & SFT $\to$ B & $p$\\\midrule
+Rule F1 & \textbf{0.588$\,\to\,$0.695} & 0.003 & \textbf{0.735$\,\to\,$0.756} & 0.032 & \textbf{0.619$\,\to\,$0.652} & 0.003 & 0.729$\,\to\,$0.745 & 0.148\\
+ECE $\downarrow$ (lower is better) & \textbf{0.218$\,\to\,$0.113} & 0.003 & \textbf{0.132$\,\to\,$0.076} & 0.003 & \textbf{0.366$\,\to\,$0.285} & 0.003 & \textbf{0.185$\,\to\,$0.140} & 0.003\\
+F1 loss under selection: AURC & \textbf{0.184$\,\to\,$0.149} & 0.003 & \textbf{0.168$\,\to\,$0.143} & 0.014 & \textbf{0.320$\,\to\,$0.265} & 0.003 & \textbf{0.235$\,\to\,$0.194} & 0.024\\\bottomrule\end{tabularx}}

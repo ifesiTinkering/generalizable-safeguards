@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "checkpoint_id": "qwen-sft",
+      "count": 610,
+      "panel": "ood",
+      "status": "complete"
+    },
+    {
+      "checkpoint_id": "qwen-sft",
+      "count": 192,
+      "panel": "id",
+      "status": "source_journal_not_found"
+    },
+    {
+      "checkpoint_id": "qwen-sft",
+      "count": 43,
+      "panel": "policy",
+      "status": "source_journal_not_found"
+    }
+  ],
+  "provider_calls": 0,
+  "records": 414274,
+  "unavailable_text": 845,
+  "with_text": 413429
+}

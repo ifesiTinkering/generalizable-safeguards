@@ -1,0 +1,25 @@
+panel,family,source,mode,metric,target,arm,value,seeds,inference
+id,GPT,dynabench,TWO_STAGE_ON,rule_F1,binary,B,0.8074955908289242,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+id,GPT,dynabench,TWO_STAGE_ON,IoU_ECE10,binary,D,0.11950320839620741,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+id,GPT,safepyramid,TWO_STAGE_ON,rule_F1,iou,B,0.7502834408826909,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+id,GPT,safepyramid,TWO_STAGE_ON,IoU_ECE10,binary,C,0.11171191913982544,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+id,Qwen,dynabench,TWO_STAGE_ON,rule_F1,partial,D,0.8116137566137567,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+id,Qwen,dynabench,TWO_STAGE_ON,IoU_ECE10,iou,D,0.09098958246590273,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+id,Qwen,safepyramid,TWO_STAGE_ON,rule_F1,iou,B,0.7726118007146272,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+id,Qwen,safepyramid,TWO_STAGE_ON,IoU_ECE10,iou,B,0.07658258595749172,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+ood,GPT,dynabench,OFF,rule_F1,binary,B,0.521769039602373,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,GPT,dynabench,OFF,IoU_ECE10,binary,B,0.15904452287576978,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,GPT,dynabench,TWO_STAGE_ON,rule_F1,iou,B,0.744838330393886,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,GPT,dynabench,TWO_STAGE_ON,IoU_ECE10,binary,B,0.09707949090685204,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,GPT,safepyramid,OFF,rule_F1,iou,B,0.49767014783019053,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,GPT,safepyramid,OFF,IoU_ECE10,binary,B,0.08139609926033714,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,GPT,safepyramid,TWO_STAGE_ON,rule_F1,iou,B,0.6516813677567371,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,GPT,safepyramid,TWO_STAGE_ON,IoU_ECE10,binary,B,0.07647986660428477,"[2, 4, 5]",Descriptive ranking; available seed sets differ
+ood,Qwen,dynabench,OFF,rule_F1,binary,A,0.5428436681631126,"[0, 1, 2, 3]",Descriptive ranking; available seed sets differ
+ood,Qwen,dynabench,OFF,IoU_ECE10,iou,D,0.29538634322003254,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+ood,Qwen,dynabench,TWO_STAGE_ON,rule_F1,partial,A,0.7572119742397521,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+ood,Qwen,dynabench,TWO_STAGE_ON,IoU_ECE10,iou,B,0.07620571251546071,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+ood,Qwen,safepyramid,OFF,rule_F1,iou,B,0.7047251874102733,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+ood,Qwen,safepyramid,OFF,IoU_ECE10,iou,D,0.08823497025159216,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ
+ood,Qwen,safepyramid,TWO_STAGE_ON,rule_F1,binary,A,0.6975551927825351,"[0, 1, 2, 3]",Descriptive ranking; available seed sets differ
+ood,Qwen,safepyramid,TWO_STAGE_ON,IoU_ECE10,iou,B,0.1131245696913046,"[0, 1, 2, 3, 4, 5, 7, 36, 42]",Descriptive ranking; available seed sets differ

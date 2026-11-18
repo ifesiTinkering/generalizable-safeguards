@@ -1,0 +1,22 @@
+{
+  "verified_utc": "2026-11-17T22:36:20.763216+00:00",
+  "pages": 5,
+  "numbered_figures": 2,
+  "download_source": "/Users/ifesionubogu/Downloads/latex_source (15).pdf",
+  "overleaf_pdf_sha256": "02b1f331b649907140093f314eb607dc061c3d3cbf4de580068a3cb1ec2dcd38",
+  "local_pdf_sha256": "680f7568c1cc7deb09e5e81cda158ffe60f0e2a067aa03711139ea719010cd60",
+  "downloaded_and_local_pdf_text_identical_except_typesetting_hyphenation": true,
+  "proof_image": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/overleaf_numbered_figures_proof.jpg",
+  "pdf_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "actual_saved_output_verified_in_setup": true,
+  "source_manifest": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/ACTIVE_SOURCE_MANIFEST.json",
+  "layout_audit": "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/output/pdf/qwen_reward_extension_20261116/tradeoff_revision_20261117/FIGURE_TABLE_LAYOUT_AUDIT.json",
+  "new_sampling_cost_usd": 0,
+  "new_grader_calls": 0
+}

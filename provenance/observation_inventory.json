@@ -1,0 +1,44 @@
+{
+  "id-gpt": {
+    "bytes": 420974,
+    "cells": 150,
+    "records": 10000,
+    "sha256": "42e4651d09ed40466a0989a509af8e526846b02257157a93dfdef94b1c960fe6"
+  },
+  "id-qwen": {
+    "bytes": 1530862,
+    "cells": 612,
+    "records": 40800,
+    "sha256": "a4ff916e52df54cef25fa7242ddd294c944548b74c36f6f96e67c23ca97d5a90"
+  },
+  "ood-gpt": {
+    "bytes": 2710378,
+    "cells": 300,
+    "records": 138900,
+    "sha256": "04567b8949269cc56de77afb581392334d51593b4e201bfcf29594b03d52d889"
+  },
+  "ood-qwen": {
+    "bytes": 10461070,
+    "cells": 1212,
+    "records": 561156,
+    "sha256": "93efe150f17c8118d0933840b281c25d20ca2be28774a395a82e47195edcb909"
+  },
+  "ood-qwen-sft": {
+    "bytes": 107181,
+    "cells": 12,
+    "records": 5556,
+    "sha256": "cd802a5ee7ae6a0b1564dac5b1978f0f558dc77af7f799aeeff86399b709249e"
+  },
+  "policy-gpt": {
+    "bytes": 23974,
+    "cells": 175,
+    "records": 2100,
+    "sha256": "a3c8fe8bed02beccae365e624cb1ffc7c7b46c116c19ca7d5188fc9e01926d16"
+  },
+  "policy-qwen": {
+    "bytes": 77754,
+    "cells": 714,
+    "records": 8568,
+    "sha256": "2d674cb0e5278b9feed93c963488b15a20d8f1e71e92ae1cb28e2946fce642a8"
+  }
+}

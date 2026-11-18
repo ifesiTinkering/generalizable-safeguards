@@ -1,0 +1,77 @@
+{
+  "family_size": 48,
+  "method": "Existing paired-conversation percentile bootstrap and arm-label block permutation; equal three-domain then fixed9-seed means; original192 unchanged.",
+  "metrics": [
+    "confidence_F1_Spearman",
+    "exact_error_AUROC",
+    "F1_loss_capture_review20",
+    "F1_AURC",
+    "IoU_ECE10",
+    "rule_F1"
+  ],
+  "paired_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    36,
+    42
+  ],
+  "provider_calls": 0,
+  "replicates": 1999,
+  "rng_seed": 816731,
+  "schema": "secondary-F1-calibration48-plan-v1",
+  "source_bindings": {
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/analyze_full_panel_arrays.py": "c46e6432ec85d042e5a6d7f619a60630e86bd1bd1c7bc5d501fc1466b69d09f9",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/common926_v1/QWEN_ARRAYS.json.gz": "b7d2146be63268c5f604f738ddfb848a0f43b3702eab26ae217aeb073f0d67f2",
+    "/Users/ifesionubogu/Desktop/safeguards-phase1-fresh/outputs/research/claim2_evidence_ablations_20261111/successor_takeover_20261114/evaluation/thinking_on_extension_v1/full_panel_coverage_audit_v1/weighted_panel_metrics.py": "5ef83953b4981f23fbf7260e865ce03cb429794de508bea4375982ac7c6605c8"
+  },
+  "source_sha256": "6d7a71952d4baa0737b26e4b959da47b96fe3b1ed5c03e2e05a19ea6bef8fd75",
+  "specs": [
+    [
+      "safepyramid",
+      "OFF",
+      "ID"
+    ],
+    [
+      "safepyramid",
+      "OFF",
+      "OOD"
+    ],
+    [
+      "safepyramid",
+      "TWO_STAGE_ON",
+      "ID"
+    ],
+    [
+      "safepyramid",
+      "TWO_STAGE_ON",
+      "OOD"
+    ],
+    [
+      "dynabench",
+      "OFF",
+      "ID"
+    ],
+    [
+      "dynabench",
+      "OFF",
+      "OOD"
+    ],
+    [
+      "dynabench",
+      "TWO_STAGE_ON",
+      "ID"
+    ],
+    [
+      "dynabench",
+      "TWO_STAGE_ON",
+      "OOD"
+    ]
+  ],
+  "status": "Explicit secondary family requested after descriptive F1 effects were inspected; no confirmatory or preregistered claim. Frozen before this family p-values/CIs.",
+  "unavailable_ID_slots": 24
+}

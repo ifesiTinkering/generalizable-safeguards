@@ -1,0 +1,19 @@
+{
+  "historical_snapshot_date": "2026-11-07",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "model": "Qwen/Qwen3.5-9B",
+  "tinker": {
+    "prefill": "0.30",
+    "cached_prefill": "0.06",
+    "sample": "0.807",
+    "train": "1.463",
+    "storage_gb_month": "0.10"
+  },
+  "source_urls": [
+    "https://tinker-docs.thinkingmachines.ai/tinker/models.json",
+    "https://thinkingmachines.ai/tinker/pricing/"
+  ],
+  "current_prices_verified": false,
+  "grant_assumed": false
+}

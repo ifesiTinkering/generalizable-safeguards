@@ -1,0 +1,33 @@
+{
+  "model_family": "gpt",
+  "target": "iou",
+  "arm": "D",
+  "seed": 2,
+  "initial_checkpoint": "<selected SFT full-checkpoint URI>",
+  "tokenizer_path": "<local matching tokenizer directory>",
+  "output_directory": "<new empty output path>",
+  "datasets": {
+    "train": {
+      "path": "<canonical train JSON path>",
+      "sha256": "<SHA256>"
+    },
+    "validation": {
+      "path": "<canonical validation JSON path>",
+      "sha256": "<SHA256>"
+    },
+    "supplement": {
+      "path": "<canonical supplement JSON path>",
+      "sha256": "<SHA256>"
+    }
+  },
+  "cash_limit_usd": null,
+  "storage_reserve_usd": null,
+  "provider_prices_verified": false,
+  "permanent_checkpoint_storage_authorized": false,
+  "sample_workers": 8,
+  "judge_workers": 4,
+  "validation_sample_workers": 4,
+  "validation_judge_workers": 4,
+  "semantic_api_prepaid": false,
+  "max_judge_calls": 1000000
+}
