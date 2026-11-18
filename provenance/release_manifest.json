@@ -1202,9 +1202,9 @@
       "sha256": "791bd1d79edaf9ea9fae6b57638fe18eb3a239154a10bc420163e3bf9873caa4"
     },
     {
-      "bytes": 2210,
+      "bytes": 2216,
       "path": "scripts/audit_release.py",
-      "sha256": "3eeabf97c0dc5849cc319fa0891179f6f131221b9210b24a65d88e38682318ad"
+      "sha256": "4013cf5e0f23828e7f1be2b334c6d92e387aef98eef55b59eee2ed8163afc93a"
     },
     {
       "bytes": 6456,

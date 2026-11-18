@@ -15,7 +15,7 @@ PATTERNS = {
     "aws_access_key": re.compile(rb"\b(?:AKIA|ASIA)[A-Z0-9]{16}\b"),
     "slack_token": re.compile(rb"\bxox[baprs]-[A-Za-z0-9-]{24,}"),
     "literal_credential": re.compile(
-        rb"(?i)(?:api[_-]?key|access[_-]?token|secret[_-]?key)\s*[=:]\s*['\"][A-Za-z0-9_+/=-]{24,}['\"]"
+        rb"(?i)(?:api[_-]?key|access[_-]?token|secret[_-]?key)['\"]?\s*[=:]\s*['\"][A-Za-z0-9_+/=-]{24,}['\"]"
     ),
     "provider_binding": re.compile(
         rb"tinker://(?!(?:synthetic|test-only|testmodel|test)(?:[/:]|$))[A-Za-z0-9][^\s\"'<>]*"
